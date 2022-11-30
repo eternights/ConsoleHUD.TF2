@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base_cant_afford.res"
+"Resource/UI/build_menu/base_unavailable.res"
 {
 	"ItemNameLabel"
 	{	
@@ -6,7 +6,7 @@
 		"fieldName"		"ItemNameLabel"
 		"font"			"HudFontSmall"
 		"xpos"			"6"
-		"ypos"			"0"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"15"
@@ -42,9 +42,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
 		"font"			"Default"
-		"fgcolor"		"RedSolid"
-		"xpos"			"3"
-		"ypos"			"40"
+		"xpos"			"10"
+		"ypos"			"48"
 		"zpos"			"2"
 		"wide"			"80"
 		"tall"			"18"
@@ -52,8 +51,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#Hud_Menu_Build_Cant_Afford"
+		"labelText"		"#Hud_Menu_Build_Unavailable"
 		"textAlignment"	"Center"
+		"dulltext"		"0"
+		"brighttext"	"0"
 	}
 	
 	"MetalIcon"	
@@ -69,7 +70,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"RedSolid"
+		"iconColor"		"TanDark"
 	}
 	
 	"CostLabel"
@@ -77,18 +78,18 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
 		"font"			"HudFontSmall"
-		"fgcolor"		"RedSolid"
+		"fgcolor"		"TanDark"
 		"xpos"			"23"
 		"ypos"			"17"
 		"zpos"			"1"
 		"wide"			"84"
-		"tall"			"10"
+		"tall"			"13"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"Left"
+		"textAlignment"	"Left"	
 	}
 	
 	"ModeLabel"
@@ -96,7 +97,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ModeLabel"
 		"font"			"DefaultSmall"
-		"fgcolor"		"RedSolid"
+		"fgcolor"		"TanDark"
 		"xpos"			"33"
 		"ypos"			"17"
 		"zpos"			"1"
@@ -109,7 +110,7 @@
 		"labelText"		""
 		"textAlignment"	"East"	
 	}
-	
+		
 	"NumberBg"	
 	{
 		"ControlName"	"CIconPanel"

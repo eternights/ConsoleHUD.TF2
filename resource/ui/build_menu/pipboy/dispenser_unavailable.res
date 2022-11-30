@@ -1,16 +1,16 @@
-#base "base_unavailable_teleport_target.res"
+#base "base_unavailable.res"
 
 "Resource/UI/build_menu/dispenser_unavailable.res"
 {
 	"ItemNameLabel"
 	{	
-		"labelText"		"#Hud_Menu_Teleport_Base"
+		"labelText"		"#TF_Object_dispenser"
 		"font"			"HudFontSmall"
 	}
 	
 	"NumberLabel"
 	{	
-		"labelText"		"1"
+		"labelText"		"2"
 		"font"			"ScoreboardTeamCountNew"
 	}
 }

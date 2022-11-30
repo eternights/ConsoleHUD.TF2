@@ -1,21 +1,21 @@
-#base "base_active_teleport_target.res"
+#base "base_active.res"
 
 "Resource/UI/build_menu/dispenser_active.res"
 {
 	"ItemNameLabel"
 	{	
-		"labelText"		"#Hud_Menu_Teleport_Base"
+		"labelText"		"#TF_Object_Dispenser"
 		"font"			"HudFontSmall"
 	}
 	
 	"BuildingIcon"	
 	{
-		"icon"			"eureka_teleport_home"
+		"icon"			"hud_menu_dispenser_build"
 	}
 	
 	"NumberLabel"
 	{	
-		"labelText"		"1"
+		"labelText"		"2"
 		"font"			"ScoreboardTeamCountNew"
 	}
 }

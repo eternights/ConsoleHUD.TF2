@@ -6,6 +6,7 @@
 	{	
 		"labelText"		"Sentry"
 		"labelText_lodef"		"Sentry"
+		"font"			"HudFontSmall"
 	}
 	
 	"BuildingIcon"	
