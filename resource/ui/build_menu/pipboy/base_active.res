@@ -6,7 +6,7 @@
 		"fieldName"		"ItemNameLabel"
 		"font"			"HudFontSmall"
 		"xpos"			"6"
-		"ypos"			"0"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"15"

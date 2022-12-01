@@ -37,7 +37,7 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIconShadow"
 		"xpos"			"16"
-		"ypos"			"-4"
+		"ypos"			"-2"
 		"zpos"			"0"
 		"wide"			"48"
 		"tall"			"48"

@@ -6,6 +6,7 @@
 	{	
 		"labelText"		"#TF_Object_tele_exit_360"
 		"font"			"HudFontSmall"
+		"ypos"			"-1"
 	}
 	
 	"NumberLabel"

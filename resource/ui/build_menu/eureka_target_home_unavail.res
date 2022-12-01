@@ -6,11 +6,18 @@
 	{	
 		"labelText"		"#Hud_Menu_Teleport_Base"
 		"font"			"HudFontSmall"
+		"ypos"			"-1"
 	}
 	
 	"NumberLabel"
 	{	
 		"labelText"		"1"
 		"font"			"ScoreboardTeamCountNew"
+	}
+	
+	"CantBuildReason"
+	{
+		"xpos"			"-7"
+		"ypos"			"40"
 	}
 }
