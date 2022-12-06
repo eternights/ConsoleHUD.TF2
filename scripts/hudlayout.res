@@ -314,10 +314,11 @@
 		"fieldName" "BuildingStatus_Spy"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"	[$WIN32]
-		"ypos"		"0"	[$WIN32]
+		"xpos"		"31"	[$WIN32]
+		"ypos"		"15"	[$WIN32]
 		"xpos"		"32"	[$X360]
 		"ypos"		"16"	[$X360]		
+		"zpos"		"10"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -484,8 +485,8 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "18"	[$WIN32]
+		"xpos"	 "r672"	[$WIN32]
+		"ypos"	 "35"	[$WIN32]
 		"xpos"	 "r672"	[$X360]
 		"ypos"	 "35"	[$X360]
 		"wide"	 "628"
@@ -498,15 +499,15 @@
 		"CornerRadius"	  "3"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Default"
+		"TextFont"		"DefaultSmall"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
 		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"HUDBlack"
+		"LocalPlayerColor"	"HudWhite"
 
-		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
+		"BaseBackgroundColor"	"32 32 32 255"		[$WIN32]
+		"LocalBackgroundColor"	"0 0 0  255"	[$WIN32]
 		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
 		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
 	}
@@ -601,7 +602,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"c-250"
-		"ypos"		"276"	[$WIN32]
+		"ypos"		"236"	[$WIN32]
 		"ypos"		"236"	[$X360]
 		"wide"		"500"
 		"tall"		"136"	[$WIN32]
@@ -726,8 +727,8 @@
 		"fieldName" "HudVoiceSelfStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos" "r42" 	[$WIN32]
-		"ypos" "355"	[$WIN32]
+		"xpos" "r75" 	[$WIN32]
+		"ypos" "375"	[$WIN32]
 		"xpos" "r75"	[$X360]
 		"ypos" "375"	[$X360]
 		"wide" "32"
@@ -972,7 +973,7 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"10"	[$WIN32]
+		"xpos"			"42"	[$WIN32]
 		"xpos"			"42"	[$X360]
 		"ypos"			"275"
 		"wide"	 		"320"
@@ -1229,9 +1230,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudAchievementTracker"
-		"xpos"			"5"
-		"NormalY"		"10"
-		"EngineerY"		"170"
+		"xpos"			"37"
+		"NormalY"		"56"
+		"EngineerY"		"177"
 		"zpos"			"2"
 		"wide"			"280"
 		"tall"			"280"

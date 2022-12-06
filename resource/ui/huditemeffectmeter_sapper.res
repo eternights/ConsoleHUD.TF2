@@ -5,9 +5,9 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"x_offset"		"36"
+//		"x_offset"		"40"
 		"xpos"			"r258"	[$WIN32]
-		"ypos"			"r78"	[$WIN32]
+		"ypos"			"r57"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos_minmode"	"r83"	[$WIN32]
 		"xpos"			"r194"	[$X360]
@@ -43,7 +43,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"40"
-		"ypos"					"26"
+		"ypos"					"25"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -60,7 +60,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CapPlayerFontSmall"
+		"font"					"TFFontSmall"
 	}
 
 	"ItemEffectMeter"
