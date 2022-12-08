@@ -5,7 +5,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"x_offset"		"36"
+		"x_offset"		"47"
 		"xpos"			"r258"	[$WIN32]
 		"ypos"			"r78"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
@@ -23,10 +23,10 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"12"
-		"ypos"			"0"
+		"ypos"			"3"
 		"zpos"			"0"
 		"wide"			"100"
-		"tall"			"50"
+		"tall"			"47"
 		"visible"		"1"
 		"visible_minmode"	"0"
 		"enabled"		"1"
@@ -42,8 +42,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"40"
-		"ypos"					"26"
+		"xpos"					"38"
+		"ypos"					"30"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -60,7 +60,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CapPlayerFontSmall"
+		"font"					"ImportToolSmallest"
 	}
 
 	"ItemEffectMeter"
@@ -69,11 +69,11 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"47"
-		"ypos"					"23"
+		"ypos"					"26"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
 		"zpos"					"2"
-		"wide"					"30"
+		"wide"					"29"
 		"wide_minmode"			"50"
 		"tall"					"5"				
 		"autoResize"			"0"

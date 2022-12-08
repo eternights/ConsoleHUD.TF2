@@ -396,6 +396,11 @@
 			"ypos"		"r100"
 		}
 		
+		"if_mvm"
+		{
+			"ypos"		"r110"
+		}
+		
 		"if_hybrid_single"
 		{
 			"xpos"		"c-80"

@@ -5,9 +5,9 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"x_offset"		"40"
-		"xpos"			"r212"	[$WIN32]
-		"ypos"			"r78"	[$WIN32]
+		"x_offset"		"55"
+		"xpos"			"r193"	[$WIN32]
+		"ypos"			"r77"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos_minmode"	"r68"	[$WIN32]
 		"x_offset_minmode"		"0"	[$WIN32]
@@ -24,10 +24,10 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"12"
-		"ypos"			"0"
+		"ypos"			"6"
 		"zpos"			"0"
 		"wide"			"100"
-		"tall"			"50"
+		"tall"			"43"
 		"visible"		"1"
 		"visible_minmode"	"0"
 		"enabled"		"1"
@@ -43,9 +43,9 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"40"
+		"xpos"					"41"
 		"xpos_minmode"			"15"
-		"ypos"					"28"
+		"ypos"					"30"
 		"ypos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"41"
@@ -60,7 +60,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CapPlayerFontSmall"
+		"font"					"ImportToolSmallest"
 	}
 
 	"ItemEffectMeter"
@@ -89,9 +89,9 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"40"
+		"xpos"					"42"
 		"xpos_minmode"			"12"
-		"ypos"					"10"
+		"ypos"					"13"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -104,27 +104,5 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontMedium"
-	}	
-	
-	"ItemEffectMeterCountShadow"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCount"
-		"fgcolor"				"black"
-		"xpos"					"41"
-		"xpos_minmode"			"12"
-		"ypos"					"11"
-		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"20"	
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"HudFontMedium"
-	}	
+	}
 }

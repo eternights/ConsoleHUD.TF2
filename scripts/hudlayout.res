@@ -258,7 +258,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"
+		"ypos"		"255"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -354,6 +354,20 @@
 		"tall"		"480"
 		
 		"PaintBackgroundType"	"2"
+	}
+	
+	"CurrencyStatusPanel"
+	{
+		"ControlName"		"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
+		"xpos"				"0"
+		"ypos"				"r100"
+		"wide"				"100"
+		"tall"				"100"
+		"xpos_minmode"		"65"
+		"ypos_minmode"		"r88"
+		"visible" 			"1"
+		"enabled" 			"1"
 	}
 	
 	HudProgressBar
@@ -504,7 +518,7 @@
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
 		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"HudWhite"
+		"LocalPlayerColor"	"TanLight"
 
 		"BaseBackgroundColor"	"32 32 32 255"		[$WIN32]
 		"LocalBackgroundColor"	"0 0 0  255"	[$WIN32]
@@ -740,8 +754,8 @@
 		"fieldName" "HudVoiceStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos" "r145" [$WIN32]
-		"ypos" "0" [$WIN32]
+		"xpos" "r176" [$WIN32]
+		"ypos" "-25" [$WIN32]
 		"xpos" "r210" [$X360]
 		"ypos" "0" [$X360]
 		"wide" "145"
@@ -934,7 +948,7 @@
 		"fieldName"			"AnnotationsPanelCallout"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"200"
+		"xpos"					"435"
 		"ypos"					"200"
 		"wide"					"100"
 		"tall"					"50"
@@ -1037,9 +1051,9 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r200"	[$WIN32]
+		"xpos"			"r193"	[$WIN32]
 		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r76"	[$WIN32]
+		"ypos"			"r77"	[$WIN32]
 		"ypos_minmode"	"r30"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
