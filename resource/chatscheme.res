@@ -228,6 +228,7 @@ Scheme
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -236,6 +237,7 @@ Scheme
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
+				"antialias"	"1"
 			}
 			"3"
 			{
@@ -277,6 +279,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"480 599"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -285,6 +288,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"600 767"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
 			"3"
 			{
@@ -293,6 +297,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"768 1023"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
 			"4"
 			{
@@ -301,6 +306,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"1024 1199"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
 			"5"
 			{
@@ -309,6 +315,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"1200 10000"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
 		}
 
@@ -321,6 +328,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"480 599"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -329,6 +337,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"600 767"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
 			"3"
 			{
@@ -337,6 +346,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"768 1023"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
 			"4"
 			{
@@ -345,6 +355,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"1024 1199"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
 			"5"
 			{
@@ -353,6 +364,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"1200 10000"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
 		}
 
@@ -366,7 +378,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"480 599"
 				"dropshadow"	"1"
-				"antialias"	"0"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -376,7 +388,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"600 767"
 				"dropshadow"	"1"
-				"antialias"	"0"
+				"antialias"	"1"
 			}
 			"3"
 			{
@@ -386,7 +398,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
-				"antialias"	"0"
+				"antialias"	"1"
 			}
 			"4"
 			{
@@ -396,7 +408,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
-				"antialias"	"0"
+				"antialias"	"1"
 			}
 			"5"
 			{
@@ -406,7 +418,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
-				"antialias"	"0"
+				"antialias"	"1"
 			}
 		}
 
