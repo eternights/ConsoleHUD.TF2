@@ -8,8 +8,8 @@
 		"ypos"			"10"
 		"xpos_minmode"	"c-410"
 		"zpos"			"0"
-		"wide"			"425"
-		"tall"			"160"
+		"wide"			"450"
+		"tall"			"185"
 		"wide_minmode"	"385"
 		"tall_minmode"	"155"
 		"visible"		"1"
@@ -71,7 +71,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBigBold"
+		"font"			"HudFontGiantBold"
+		"font_minmode"	"HudFontMediumBigBold"
 		"xpos"			"68"			// align me to the left edge of the first selection
 		"xpos_minmode"	"28"
 		"ypos"			"0"
@@ -93,7 +94,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontMediumBigBold"
+		"font"			"HudFontGiantBold"
+		"font_minmode"	"HudFontMediumBigBold"
 		"fgcolor"		"Black"
 		"xpos"			"69"			// align me to the left edge of the first selection
 		"ypos"			"1"
