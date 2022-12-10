@@ -17,9 +17,9 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"r132"	[$WIN32]
-		"xpos_minmode"	"r85"	[$WIN32]
+		"xpos_minmode"	"r86"	[$WIN32]
 		"ypos"	"r77"	[$WIN32]
-		"ypos_minmode"	"r36"	[$WIN32]
+		"ypos_minmode"	"r37"	[$WIN32]
 		"xpos"	"r131"	[$X360]
 		"ypos"	"r77"	[$X360]
 		"wide"	"94"
@@ -33,6 +33,7 @@
 		"enabled" "1"
 		"xpos"	"0"
 		"ypos"	"-22"
+		"ypos_minmode"	"6"
 		"wide"	"f0"
 		"tall"	"480"
 	}	
@@ -77,9 +78,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r175"	[$WIN32]
-		"xpos_minmode"	"r100"	[$WIN32]
+		"xpos_minmode"	"r103"	[$WIN32]
 		"ypos"			"r92"	[$WIN32]
-		"ypos_minmode"	"r34"	[$WIN32]
+		"ypos_minmode"	"r36"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
 		"wide"			"200"
@@ -92,14 +93,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r120"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
+		"xpos_minmode"	"r63"	[$WIN32]
 		"ypos"			"r46"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"62"
-		"wide_minmode"	"50"
+		"wide_minmode"	"58"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -164,7 +165,8 @@
 		"wide"	"f0"
 		"ypos" 	"0"
 		"tall"	"480"
-		"RightMargin" "0"
+		"RightMargin" "36"
+		"RightMargin_minmode"	"-6"
 		"RightMargin_hidef" "32"
 		"RightMargin_lodef" "38"
 		"visible" "1"
@@ -182,7 +184,7 @@
 		"SelectionNumberYPos" "4"
 		"IconXPos" "8"
 		"IconYPos" "0"
-		"TextYPos" "70"		[$WIN32]
+		"TextYPos" "65"		[$WIN32]
 		"TextYPos" "65"		[$X360]
 		"ErrorYPos" "48"
 		"TextColor" "SelectionTextFg"
@@ -200,8 +202,9 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"r182"	[$WIN32]
+		"xpos_minmode"			"r113"
 		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
+		"ypos_minmode"			"r109"	[$WIN32]
 		"xpos"					"r194"	[$X360]
 		"ypos"					"r174"	[$X360]
 		"wide"					"120"
@@ -333,9 +336,11 @@
 		"xpos"		"31"
 		"xpos_hidef"		"32"
 		"xpos_lodef"		"40"
+		"xpos_minmode"	"-9"
 		"ypos"		"15"
 		"ypos_hidef"		"16"
 		"ypos_lodef"		"25"
+		"ypos_minmode"	"-5"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -500,20 +505,27 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r672"	[$WIN32]
-		"ypos"	 "35"	[$WIN32]
+		"xpos_minmode"	"r633"
+		"ypos"	 "40"	[$WIN32]
+		"ypos_minmode"	"25"
 		"xpos"	 "r672"	[$X360]
 		"ypos"	 "35"	[$X360]
 		"wide"	 "628"
 		"tall"	 "468"
 
 		"MaxDeathNotices" "4"
+		"MaxDeathNotices_minmode"	"3"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
+		"LineHeight_minmode"	"10"	
 		"LineSpacing"	  "4"
+		"LineSpacing_minmode"	"0"	
 		"CornerRadius"	  "3"
+		"CornerRadius_minmode"	"2"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		"TextFont"		"DefaultSmall"
+		"TextFont_minmode"	"DefaultSmall"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
@@ -616,18 +628,25 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"c-250"
+		"xpos_minmode"	"8"
 		"ypos"		"236"	[$WIN32]
+		"ypos_minmode"	"285"
 		"ypos"		"236"	[$X360]
 		"wide"		"500"
+		"wide_minmode"	"280"
 		"tall"		"136"	[$WIN32]
 		"tall"		"176"	[$X360]
 
 		"BgAlpha"	"128"
+		"BgAlpha_minmode"	"90"
 
 		"GrowTime"		"0.25"
+		"GrowTime_minmode"	"0.1"
 		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
 		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
 		"ItemFadeOutTime"	"0.3"
+		"ItemFadeInTime_minmode"	"0.05"
+		"ItemFadeOutTime_minmode"	"0.15"
 		"topoffset"		"0"
 	}
 
@@ -743,6 +762,8 @@
 		"enabled" "1"
 		"xpos" "r75" 	[$WIN32]
 		"ypos" "375"	[$WIN32]
+		"xpos_minmode"	"r35" [$WIN32]
+		"ypos_minmode"	"340"
 		"xpos" "r75"	[$X360]
 		"ypos" "375"	[$X360]
 		"wide" "32"
@@ -1002,6 +1023,8 @@
 		"enabled" 		"1"
 		"xpos"			"c-225"
 		"ypos"			"c-55"
+		"xpos_minmode"	"c-215"
+		"ypos_minmode"	"c0"
 		"wide"			"450"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
@@ -1014,6 +1037,8 @@
 		"enabled" 		"1"
 		"xpos"			"c-225"
 		"ypos"			"c-59"
+		"xpos_minmode"	"c-190"
+		"ypos_minmode"	"c0"
 		"wide"			"450"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
@@ -1026,6 +1051,8 @@
 		"enabled" 		"1"
 		"xpos"			"c-125"
 		"ypos"			"c-55"
+		"xpos_minmode"	"c-110"
+		"ypos_minmode"	"c10"
 		"wide"			"250"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
@@ -1038,6 +1065,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"c-42"
+		"ypos_minmode"	"c-0"
 		"ypos_hidef"	"c-42"
 		"ypos_lodef"	"c-42"
 		"wide"			"470"
@@ -1245,6 +1273,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudAchievementTracker"
 		"xpos"			"37"
+		"xpos_minmode"	"0"
 		"NormalY"		"56"
 		"EngineerY"		"177"
 		"zpos"			"2"
@@ -1498,7 +1527,8 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"15"
+		"ypos_minmode"			"-5"
 		"zpos"					"3"
 		"wide"					"f0"
 		"tall"					"f0"
