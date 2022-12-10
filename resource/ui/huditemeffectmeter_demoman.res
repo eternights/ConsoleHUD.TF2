@@ -8,7 +8,7 @@
 		"xpos"			"r204"	[$WIN32]
 		"ypos"			"r105"	[$WIN32]
 		"xpos_minmode"	"r70"	[$WIN32]
-		"ypos_minmode"	"r74"	[$WIN32]
+		"ypos_minmode"	"r85"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"100"
@@ -98,5 +98,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontMedium"
+		"fgcolor_minmode"				"HudWhite"
 	}
 }

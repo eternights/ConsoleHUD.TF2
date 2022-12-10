@@ -8,6 +8,7 @@
 		"ypos"			"0"
 		"wide"			"150"
 		"tall"			"31"
+		"tall_minmode"	"27"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

@@ -8,8 +8,8 @@
 		"x_offset"		"47"
 		"xpos"			"r258"	[$WIN32]
 		"ypos"			"r78"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos_minmode"	"r83"	[$WIN32]
+		"xpos_minmode"	"r8"	[$WIN32]
+		"ypos_minmode"	"r77"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r124"	[$X360]
 		"wide"			"100"
@@ -51,9 +51,9 @@
 		"pinCorner"				"2"
 		"visible"				"1"
 		"visible_minmode"		"1"
-		"ypos_minmode"			"1"
-		"xpos_minmode"			"0"
-		"textAlignment_minmode"			"west"
+		"ypos_minmode"			"2"
+		"xpos_minmode"			"4"
+		"textAlignment_minmode"			"center"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
@@ -74,7 +74,7 @@
 		"xpos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"29"
-		"wide_minmode"			"50"
+		"wide_minmode"			"51"
 		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"

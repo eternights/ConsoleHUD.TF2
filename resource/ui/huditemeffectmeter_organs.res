@@ -6,8 +6,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"55"
-		"xpos"			"r193"	[$WIN32]
-		"ypos"			"r77"	[$WIN32]
+		"xpos"			"r202"	[$WIN32]
+		"ypos"			"r112"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos_minmode"	"r68"	[$WIN32]
 		"x_offset_minmode"		"0"	[$WIN32]
@@ -46,7 +46,7 @@
 		"xpos"					"41"
 		"xpos_minmode"			"15"
 		"ypos"					"30"
-		"ypos_minmode"			"0"
+		"ypos_minmode"			"25"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -104,5 +104,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontMedium"
+		"font_minmode"			"HudFontMediumSmall"
+		"fgcolor_minmode"		"HudWhite"
 	}
 }

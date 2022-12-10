@@ -80,6 +80,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	
 	"BlueLeaderAvatar"
@@ -195,6 +200,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	
 	"MainBG"
@@ -214,8 +224,8 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"448"
+			"ypos"			"5"
+			"tall"			"435"
 		}
 	}							
 	"BlueTeamLabel"
@@ -414,7 +424,8 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"ypos"			"4"
+			"xpos"			"42"
 			"visible"		"1"
 		}
 	}
@@ -522,7 +533,8 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"ypos"			"4"
+			"xpos"			"298"
 			"visible"		"1"
 		}
 	}							
@@ -947,7 +959,7 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		
 		if_mvm

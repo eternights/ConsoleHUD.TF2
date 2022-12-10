@@ -25,9 +25,13 @@
 		"xpos"			"c-140"
 		"ypos"			"r75"	[$WIN32]
 		"ypos"			"r97"	[$X360]
+		"ypos_minmode"	"r61"
+		"xpos_minmode"	"c-131"
 		"zpos"			"1"
 		"wide"			"280"
+		"wide_minmode"	"260"
 		"tall"			"81"
+		"tall_minmode"	"61"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_left"
@@ -56,9 +60,13 @@
 		"xpos"			"c-140"
 		"ypos"			"r75"	[$WIN32]
 		"ypos"			"r97"	[$X360]
+		"ypos_minmode"	"r61"
+		"xpos_minmode"	"c-131"
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"81"
+		"wide_minmode"	"260"
+		"tall_minmode"	"61"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_right"
@@ -87,9 +95,13 @@
 		"xpos"			"c-140"
 		"ypos"			"r75"	[$WIN32]
 		"ypos"			"r96"	[$X360]
+		"ypos_minmode"	"r61"
+		"xpos_minmode"	"c-131"
 		"zpos"			"2"
 		"wide"			"280"
 		"tall"			"80"
+		"wide_minmode"	"260"
+		"tall_minmode"	"61"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_outline"
@@ -117,6 +129,7 @@
 		"fieldName"		"BlueScore"
 		"xpos"			"c-130"
 		"ypos"			"r70"
+		"xpos_minmode"	"c-125"
 		"ypos_lodef"	"r88"
 		"ypos_hidef"	"r93"
 		"zpos"			"8"
@@ -131,6 +144,7 @@
 		"font"			"ScoreboardTeamScore"
 		"font_hidef"	"HudFontGiant"
 		"font_lodef"	"HudFontGiant"
+		"font_minmode"	"HudFontBig"
 		"fgcolor"		"TanLight"
 		
 		"if_hybrid"
@@ -155,6 +169,8 @@
 		"fieldName"		"BlueScoreShadow"
 		"xpos"			"c-128"
 		"ypos"			"r68"
+		"ypos_minmode"	"r68"
+		"xpos_minmode"	"cs-1.66"
 		"ypos_lodef"	"r87"
 		"ypos_hidef"	"r92"
 		"zpos"			"7"
@@ -169,6 +185,7 @@
 		"font"			"ScoreboardTeamScore"
 		"font_hidef"	"HudFontGiant"
 		"font_lodef"	"HudFontGiant"
+		"font_minmode"	"HudFontBig"
 		"fgcolor"		"Black"
 		
 		"if_hybrid"
@@ -193,6 +210,7 @@
 		"fieldName"		"RedScore"
 		"xpos"			"c57"
 		"ypos"			"r70"
+		"xpos_minmode"	"c50"
 		"ypos_lodef"	"r88"
 		"ypos_hidef"	"r93"
 		"zpos"			"8"
@@ -207,6 +225,7 @@
 		"font"			"ScoreboardTeamScore"
 		"font_hidef"	"HudFontGiant"
 		"font_lodef"	"HudFontGiant"
+		"font_minmode"	"HudFontBig"
 		"fgcolor"		"TanLight"		
 		
 		"if_hybrid"
@@ -231,6 +250,8 @@
 		"fieldName"		"RedScoreShadow"
 		"xpos"			"c59"
 		"ypos"			"r68"
+		"xpos_minmode"	"c52"
+		"ypos_minmode"	"r68"
 		"ypos_lodef"	"r87"
 		"ypos_hidef"	"r92"
 		"zpos"			"7"
@@ -245,6 +266,7 @@
 		"font"			"ScoreboardTeamScore"
 		"font_hidef"	"HudFontGiant"
 		"font_lodef"	"HudFontGiant"
+		"font_minmode"	"HudFontBig"
 		"fgcolor"		"Black"		
 		
 		"if_hybrid"
@@ -287,8 +309,12 @@
 		"ypos"			"r137"	[$WIN32]
 		"ypos"			"r158"	[$X360]
 		"zpos"			"10"
+		"xpos_minmode"	"c-45"
+		"ypos_minmode"	"r110"
 		"wide"			"100"
 		"tall"			"100"
+		"wide_minmode"	"85"
+		"tall_minmode"	"85"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
@@ -385,6 +411,7 @@
 		"ypos"			"r95"	[$WIN32]
 		"ypos"			"r116"	[$X360]
 		"zpos"			"5"
+		"ypos_minmode"	"r85"
 		"wide"			"160"
 		"tall"			"90"
 		"visible"		"1"
@@ -429,6 +456,7 @@
 		"xpos"			"c-25"
 		"ypos"			"r95"	[$WIN32]
 		"ypos"			"r116"	[$X360]
+		"ypos_minmode"	"r85"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -470,8 +498,11 @@
 		"ypos"			"r95"	[$WIN32]
 		"ypos"			"r116"	[$X360]
 		"zpos"			"5"
+		"ypos_minmode"	"r78"
 		"wide"			"80"
 		"tall"			"80"
+		"wide_minmode"	"75"
+		"tall_minmode"	"75"
 		"visible"		"0"
 		"enabled"		"1"
 		

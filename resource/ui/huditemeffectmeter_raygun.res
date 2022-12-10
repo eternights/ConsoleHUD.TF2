@@ -5,10 +5,11 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
+		"x_offset"		"47"
 		"xpos"			"r180"	[$WIN32]
 		"ypos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos_minmode"	"r54"	[$WIN32]
+		"xpos_minmode"	"r8"	[$WIN32]
+		"ypos_minmode"	"r47"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r124"	[$X360]
 		"wide"			"100"
@@ -50,9 +51,9 @@
 		"pinCorner"				"2"
 		"visible"				"1"
 		"visible_minmode"		"1"
-		"ypos_minmode"			"1"
-		"xpos_minmode"			"0"
-		"textAlignment_minmode"			"west"
+		"ypos_minmode"			"3"
+		"xpos_minmode"			"4"
+		"textAlignment_minmode"			"center"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"

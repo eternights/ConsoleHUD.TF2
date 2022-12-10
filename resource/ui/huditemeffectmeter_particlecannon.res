@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"55"
-		"x_offset_minmode"		"0"	[$WIN32]
+		"x_offset_minmode"		"3"	[$WIN32]
 		"xpos"			"r207"	[$WIN32]
 		"ypos"			"r79"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
@@ -52,9 +52,9 @@
 		"pinCorner"				"2"
 		"visible"				"1"
 		"visible_minmode"		"1"
-		"ypos_minmode"			"1"
-		"xpos_minmode"			"0"
-		"textAlignment_minmode"			"west"
+		"ypos_minmode"			"2"
+		"xpos_minmode"			"4"
+		"textAlignment_minmode"			"center"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"

@@ -19,9 +19,9 @@
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
 		"xpos"			"55"	[$WIN32]
-		"xpos_minmode"	"15"	[$WIN32]
+		"xpos_minmode"	"10"	[$WIN32]
 		"ypos"			"r110"	[$WIN32]
-		"ypos_minmode"	"r54"	[$WIN32]
+		"ypos_minmode"	"r60"	[$WIN32]
 		"xpos"			"57"	[$X360]
 		"ypos"			"r110"	[$X360]
 		"zpos"			"2"
@@ -81,14 +81,15 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
 		"xpos"			"37"		[$WIN32]
-		"xpos_minmode"	"-10"		[$WIN32]
+		"xpos_minmode"	"0"		[$WIN32]
 		"ypos"			"r84"	[$WIN32]
-		"ypos_minmode"		"r40"	[$WIN32]
+		"ypos_minmode"		"r50"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
 		"wide"			"104"
 		"tall"			"54"
+		"tall_minmode"	"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -106,13 +107,13 @@
 		"xpos"			"37"		[$WIN32]
 		"xpos_minmode"	"0"		[$WIN32]
 		"ypos"			"r84"	[$WIN32]
-		"ypos_minmode"		"r40"	[$WIN32]
+		"ypos_minmode"		"r50"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
 		"wide"			"104"
 		"tall"			"54"
-		"tall_minmode"	"55"
+		"tall_minmode"	"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -131,7 +132,7 @@
 		"xpos"			"37"	[$WIN32]
 		"xpos_minmode"	"0"	[$WIN32]
 		"ypos"			"r235"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
+		"ypos_minmode"	"r94"	[$WIN32]
 		"zpos"			"2"		
 		"wide"			"100"
 		"wide_minmode"	"52"

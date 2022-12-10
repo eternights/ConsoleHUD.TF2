@@ -7,8 +7,8 @@
 		"enabled"		"1"
 		"xpos"			"120"	[$WIN32]
 		"ypos"			"r70"	[$WIN32]
-		"xpos_minmode"	"68"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
+		"xpos_minmode"	"65"	[$WIN32]
+		"ypos_minmode"	"r38"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -83,7 +83,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"27"
-		"ypos_minmode"			"18"
+		"ypos_minmode"			"11"
 		"ypos"					"6"
 		"zpos"					"2"
 		"wide"					"40"
@@ -97,6 +97,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontMedium"
-		"font_minmode"			"HudFontSmall"
+		"font_minmode"			"HudFontMediumSmall"
+		"fgcolor_minmode"		"HudWhite"
 	}
 }

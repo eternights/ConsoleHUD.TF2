@@ -6,9 +6,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r180"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
+		"xpos_minmode"	"r54"	[$WIN32]
 		"ypos"			"r80"	[$WIN32]
-		"ypos_minmode"	"r54"	[$WIN32]
+		"ypos_minmode"	"r47"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"200"
@@ -51,8 +51,8 @@
 		"visible"				"1"
 		"visible_minmode"		"1"
 		"ypos_minmode"			"1"
-		"xpos_minmode"			"0"
-		"textAlignment_minmode"			"west"
+		"xpos_minmode"			"4"
+		"textAlignment_minmode"			"center"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
@@ -69,7 +69,7 @@
 		"font"					"Default"
 		"xpos"					"12"
 		"ypos"					"28"
-		"ypos_minmode"			"0"
+		"ypos_minmode"			"-2"
 		"xpos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"40"
