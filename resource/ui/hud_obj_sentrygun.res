@@ -7,7 +7,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"160"
-		"tall"			"55"
+		"tall"			"59"
 		"tall_minmode"	"52"
 		"autoResize"	"0"
 		"pinCorner"		"0"
