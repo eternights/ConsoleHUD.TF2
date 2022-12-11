@@ -959,7 +959,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"CountdownBG"
 		"xpos"			"230"
-		"ypos"			"r55"
+		"ypos"			"r115"
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"40"
@@ -1011,7 +1011,7 @@
 		if_competitive
 		{
 			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.1"
+			"ypos"			"r115"
 			"fgcolor"		"TanLight"
 			"font"			"HudFontGiant"
 		}
