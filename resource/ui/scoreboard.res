@@ -543,7 +543,7 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
 		"xpos"			"35"
-		"ypos"			"92"
+		"ypos"			"78"
 		"zpos"			"20"
 		"wide"			"285"
 		"tall"			"280"
@@ -567,7 +567,7 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
 		"xpos"			"323"
-		"ypos"			"92"
+		"ypos"			"78"
 		"zpos"			"20"
 		"wide"			"285"
 		"tall"			"280"
@@ -959,7 +959,7 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		
 		if_mvm
