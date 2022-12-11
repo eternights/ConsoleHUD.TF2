@@ -18,7 +18,7 @@ Second attempt at making Xbox 360's HUD to *Team Fortress 2*.
 |                      	| Linux       	|   Untested   	| I do not have any Linux OS to test on.                                                         	|
 |                      	| Mac         	|   Untested   	| I will never test this HUD on a Mac.                                                           	|
 | **Resolution**       	| 4:3         	|    Partly    	| Close captions would be too large.                                                             	|
-|                      	| 5:4         	|    Partly    	| Close captions would be too large, scoreboard player list is too long.                         	|
+|                      	| 5:4         	|    Partly    	| Ditto.                                                                                        	|
 |                      	| 16:10       	| Full support 	|                                                                                                	|
 |                      	| 16:9        	| Full support 	|                                                                                                	|
 | **Direct X level**   	| 8.x         	|    Partly    	| Scoreboard background is broken.                                                               	|
@@ -41,6 +41,5 @@ Screenshots of the heads up display, some may be slightly outdated.
 | ![Engineer with the Pip-Boy cosmetic version of Engineering display HUD.](https://i.imgur.com/6AoK0Ux.png)                                                                                            | ![Spy, Diamond Back, Spycicle, and Invis Watch. Not disguised.](https://i.imgur.com/JS87Pxb.png)                                                 |
 
 # To-do
-* Fix Mann vs. Machine countdown position.
 * Main-menu.
 * Stats position.
