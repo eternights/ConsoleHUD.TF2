@@ -1561,8 +1561,8 @@ event HudTournament_ShowTimerCompetitive
 
 event HudTournament_ShowTimerDefault
 {
-	Animate CountdownLabel ypos 425 Linear 0 0
-	Animate CountdownLabelShadow ypos 425 Linear 0 0
+	Animate CountdownLabel ypos r114 Linear 0 0
+	Animate CountdownLabelShadow ypos r113 Linear 0 0
 
 	SetVisible CountdownBG  1 0
 	SetVisible CountdownLabel 1 0
