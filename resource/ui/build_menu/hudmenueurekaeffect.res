@@ -7,8 +7,10 @@
 		"xpos"			"0"
 		"ypos"			"10"
 		"zpos"			"0"
-		"wide"			"214"
-		"tall"			"155"
+		"wide_minmode"	"214"
+		"tall_minmode"	"155"
+		"wide"			"250"
+		"tall"			"170"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -78,8 +80,8 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"HudFontMediumBigBold"
 		"fgcolor"		"Black"
-		"xpos"			"70"			// align me to the left edge of the first selection
-		"ypos"			"2"
+		"xpos"			"69"			// align me to the left edge of the first selection
+		"ypos"			"1"
 		"xpos_minmode"	"11"
 		"ypos_minmode"	"11"
 		"zpos"			"1"
