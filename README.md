@@ -1,3 +1,4 @@
+[**Download**](github.com/Blakeline/ConsoleHUD.TF2/releases/latest)
 ![](https://i.imgur.com/uaPfqJm.png)
 # ConsoleHUD
 Second attempt at making Xbox 360's HUD to *Team Fortress 2*.
@@ -21,6 +22,7 @@ Second attempt at making Xbox 360's HUD to *Team Fortress 2*.
 |                      	| 5:4         	|    Partly    	| Ditto.                                                                                        	|
 |                      	| 16:10       	| Full support 	|                                                                                                	|
 |                      	| 16:9        	| Full support 	|                                                                                                	|
+|                       | Ultra-wide    | Partly        | Background images are stretched to full.
 | **Direct X level**   	| 8.x         	|    Partly    	| Scoreboard background is broken.                                                               	|
 |                      	| 9.x         	| Full support 	|                                                                                                	|
 |                      	| 10.x        	|   Untested   	| My system is not supported for Dirext X 10.x levels.                                           	|
@@ -43,3 +45,7 @@ Screenshots of the heads up display, some may be slightly outdated.
 # To-do
 * Main-menu.
 * Stats position.
+
+# Credits
+* HUDS.TF community for help.
+* [Cheezeh](https://gamebanana.com/members/1320438) for [Animated Dustbowl Menu Background Reborn](https://gamebanana.com/mods/25751).
