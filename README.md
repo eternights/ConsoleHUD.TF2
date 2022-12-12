@@ -48,4 +48,4 @@ Screenshots of the heads up display, some may be slightly outdated.
 
 # Credits
 * HUDS.TF community for help.
-* [Cheezeh](https://gamebanana.com/members/1320438) for [Animated Dustbowl Menu Background Reborn](https://gamebanana.com/members/1320438).
+* [Cheezeh](https://gamebanana.com/members/1320438) for [Animated Dustbowl Menu Background Reborn](https://gamebanana.com/mods/25751).
