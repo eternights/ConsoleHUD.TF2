@@ -411,7 +411,7 @@
 		"font"			"ScoreboardVerySmall"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
-		"xpos"			"11"
+		"xpos"			"20"
 		"xpos_hidef"	"31"
 		"ypos"			"60"
 		"ypos_lodef"	"62"
@@ -654,7 +654,7 @@
 	}							
 	"ShadedBar"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"35"
 		"ypos"			"362"
@@ -666,8 +666,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 153"
-		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"0 0 0 153"
+		"paintbackgroundtype"	"2"
 		
 		if_mvm
 		{
@@ -884,8 +884,8 @@
 		"fieldName"		"ServerLabelNew"
 		"font"			"DefaultVerySmall"
 		"labelText"		"%server%"
-		"textAlignment"		"east"
-		"xpos"			"170"
+		"textAlignment"		"west"
+		"xpos"			"115"
 		"ypos"			"361"
 		"zpos"			"3"
 		"wide"			"265"
@@ -908,7 +908,7 @@
 		"labelText"		"%mapname%"
 		"textAlignment"	"east"
  		"xpos"			"315"
-		"ypos"			"362"
+		"ypos"			"364"
 		"zpos"			"3"
 		"wide"			"265"
 		"tall"			"12"
