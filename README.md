@@ -1,4 +1,4 @@
-[**Download**](github.com/Blakeline/ConsoleHUD.TF2/releases/latest)
+[**Download**](http://github.com/Blakeline/ConsoleHUD.TF2/releases/latest)
 ![](https://i.imgur.com/uaPfqJm.png)
 # ConsoleHUD
 Second attempt at making Xbox 360's HUD to *Team Fortress 2*.
