@@ -199,7 +199,7 @@
 	{
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
-		"ypos"			"cs-2.38"
+		"ypos"			"cs-2.18"
 		"zpos"			"1"		
 		"wide"			"300"
 		"tall"			"100"
@@ -212,7 +212,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"BGFrame"
 		"xpos"				"cs-0.5"
-		"ypos"				"0"
+		"ypos"				"20"
 		"zpos"				"0"
 		"wide"				"365"
 		"tall"				"28"
@@ -280,7 +280,7 @@
 		"xpos"				"c-55"
 		"xpos_hidef"		"c-150"
 		"xpos_lodef"		"c-150"
-		"ypos"				"4"	[$WIN32]
+		"ypos"				"24"	[$WIN32]
 		"ypos_minmode"		"-14"	[$WIN32]
 		"ypos"				"24"	[$X360]
 		"zpos"				"2"
@@ -358,7 +358,7 @@
 		"ControlName"	"CTFTeamStatus"
 		"fieldName"		"TeamStatus"
 		"xpos"			"0"
-		"ypos"			"3"
+		"ypos"			"s0.04"
 		"ypos_minmode"	"5"
 		"zpos"			"2"
 		"wide"			"f0"
@@ -383,6 +383,7 @@
 		"playerpanels_kv"
 		{
 			"visible"		"0"
+			"ypos"			"s0.4"
 			"wide"			"25"
 			"tall"			"50"
 			"zpos"			"1"
