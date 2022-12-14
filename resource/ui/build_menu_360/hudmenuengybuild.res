@@ -273,7 +273,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuildHintLabel_Bright"
-		"font"			"MatchmakingDialogMenuMedium"
+		"font"			"GameUIButtonText"
 		"antialias"		"1"
 		"additive"		"0"
 		"xpos"			"354"
@@ -295,7 +295,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuildHintLabel_Dim"
-		"font"			"MatchmakingDialogMenuMedium"
+		"font"			"GameUIButtonText"
 		"fgcolor"		"TanDark"
 		"xpos"			"354"
 		"ypos"			"149"
@@ -336,7 +336,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DestroyHintLabel_Bright"
-		"font"			"MatchmakingDialogMenuMedium"
+		"font"			"GameUIButtonText"
 		"xpos"			"220"			// align me to the left edge of the first selection
 		"ypos"			"149"
 		"zpos"			"1"
@@ -356,7 +356,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DestroyHintLabel_Dim"
-		"font"			"MatchmakingDialogMenuMedium"
+		"font"			"GameUIButtonText"
 		"fgcolor"		"TanDark"
 		"xpos"			"220"			// align me to the left edge of the first selection
 		"ypos"			"149"
@@ -397,7 +397,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelHintLabel"
-		"font"			"MatchmakingDialogMenuMedium"
+		"font"			"GameUIButtonText"
 		"xpos"			"40"
 		"ypos"			"149"
 		"zpos"			"1"
