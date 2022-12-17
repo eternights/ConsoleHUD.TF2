@@ -226,7 +226,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"c0"
+		"xpos"			"c-100"
 		"ypos"			"r124"
 		"zpos"			"0"
 		"wide"			"200"
@@ -258,7 +258,7 @@
 	{
 		// "ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"c-250"
+		"xpos"			"6969"
 		"ypos"			"-80"
 		"zpos"			"-99"
 		"wide"			"0"
@@ -272,12 +272,12 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"cs-0.5-256"
-		"ypos"			"cs-0.5-120"
+		"xpos"			"6969"
+		"ypos"			"cs-0.5+210"
 
-		"zpos"			"-51"
-		"wide"			"1000"
-		"tall"			"1000"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
@@ -291,14 +291,15 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"cs-0.5-44"
-		"ypos"			"cs-0.5-134"
-		"wide"			"15"
-		"tall"			"15"
+		"xpos"			"6969"
+		"ypos"			"cs-0.5+190"
+		"zpos"			"0"	
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"textinsetx"	"25"
 		"labelText"		""
@@ -318,8 +319,21 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
 		"paintborder"		"0"
-		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"255 255 255 255"
+		"image_drawcolor"	"200 187 161 255"
+	
+		// default style
+		"defaultBgColor_override"	"Black"
+		"defaultFgColor_override"	"HudOffWhite"
+		"border_default"		"Black"
+					
+		// armed style
+		"armedBgColor_override"	"Orange"
+		"armedFgColor_override" 	"HudOffWhite"
+		"border_armed"		"TFOrange"
+		
+		// depressed style    
+		"depressedBgColor_override"	"Black"
+		"depressedFgColor_override" "HudOffWhite"	
 
 		"SubImage"
 		{
@@ -362,11 +376,11 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"c-350"
-		"ypos"			"72"
-		"zpos"			"-52"
-		"wide"			"320"
-		"tall"			"100"
+		"xpos"			"6969"
+		"ypos"			"395"
+		"zpos"			"10"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
@@ -420,12 +434,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RankBorder"
-		"xpos"			"c-290"
+		"xpos"			"6969"
 		"ypos"			"94"
 		"zpos"			"-100"
-		"wide"			"260"
-		"tall"			"60"
-		"visible"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 		"proportionaltoparent"	"1"
@@ -435,6 +449,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TooltipPanel"
+		"bgcolor_override"	"118 107 94 255"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10000"
@@ -442,7 +457,6 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
 		
 		"TipSubLabel"
 		{
@@ -460,7 +474,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor_override"	"HudOffWhite"
 			"wrap"			"1"
 		}
 		
@@ -592,8 +606,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"c188"
-		"ypos"			"28"
+		"xpos"			"c-99"
+		"ypos"			"230"
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"
@@ -612,8 +626,8 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
+			"wide"			"25"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -635,10 +649,23 @@
 				
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground"	"0"
+			"paintbackground"	"1"
 			"paintborder"		"0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_drawcolor"	"200 187 161 255"
+		
+			// default style
+			"defaultBgColor_override"	"HudBlack"
+			"defaultFgColor_override"	"HudOffWhite"
+			"border_default"		"HudBlack"
+						
+			// armed style
+			"armedBgColor_override"	"Orange"
+			"armedFgColor_override" 	"HudOffWhite"
+			"border_armed"		"TFOrange"
+			
+			// depressed style    
+			"depressedBgColor_override"	"HudBlack"
+			"depressedFgColor_override" "HudOffWhite"			
 
 			"SubImage"
 			{
@@ -652,7 +679,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"button_streaming"
+				"image"			"button_streaming_glb"
 
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
@@ -665,11 +692,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"c228"
-		"ypos"			"28"
+		"xpos"			"c-99"
+		"ypos"			"260"
 		"zpos"			"1"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"25"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -685,8 +712,8 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
+			"wide"			"25"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -708,10 +735,23 @@
 				
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground"	"0"
+			"paintbackground"	"1"
 			"paintborder"		"0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_drawcolor"	"200 187 161 255"
+		
+			// default style
+			"defaultBgColor_override"	"HudBlack"
+			"defaultFgColor_override"	"HudOffWhite"
+			"border_default"		"HudBlack"
+						
+			// armed style
+			"armedBgColor_override"	"Orange"
+			"armedFgColor_override" 	"HudOffWhite"
+			"border_armed"		"TFOrange"
+			
+			// depressed style    
+			"depressedBgColor_override"	"HudBlack"
+			"depressedFgColor_override" "HudOffWhite"	
 
 			"SubImage"
 			{
@@ -720,8 +760,8 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
-				"wide"			"f0"
-				"tall"			"f0"
+				"wide"			"25"
+				"tall"			"25"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
@@ -738,11 +778,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c268"
-		"ypos"			"28"
+		"xpos"			"c-99"
+		"ypos"			"290"
 		"zpos"			"1"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"25"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -761,8 +801,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"32"
-			"tall"			"32"
+			"wide"			"25"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -781,9 +821,22 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"paintbackground" "1"
+			"image_drawcolor"	"200 187 161 255"
+		
+			// default style
+			"defaultBgColor_override"	"HudBlack"
+			"defaultFgColor_override"	"HudOffWhite"
+			"border_default"		"HudBlack"
+						
+			// armed style
+			"armedBgColor_override"	"Orange"
+			"armedFgColor_override" 	"HudOffWhite"
+			"border_armed"		"TFOrange"
+			
+			// depressed style    
+			"depressedBgColor_override"	"HudBlack"
+			"depressedFgColor_override" "HudOffWhite"	
 
 			"SubImage"
 			{
@@ -792,8 +845,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"32"
-				"tall"			"32"
+				"wide"			"25"
+				"tall"			"25"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"button_MOTD"
@@ -806,8 +859,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"c5"
-		"ypos"			"65"
+		"xpos"			"c-60"
+		"ypos"			"60"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"350"
@@ -1392,14 +1445,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
-		"xpos"			"c-290"
-		"ypos"			"260"
-		"zpos"			"5"
-		"wide"			"260"
-		"tall"			"150"
+		"xpos"			"6969"
+		"ypos"			"407"
+		"zpos"			"-1"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
-
-		"border"		"MainMenuBGBorder"
 
 		"TitleLabel"
 		{
@@ -1424,18 +1475,16 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"InnerShadow"
+			"bgcolor_override"	"Black"
 			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
-			"zpos"			"501"
-			"wide"			"f10"
-			"tall"			"110"
+			"ypos"			"rs1-38"
+			"zpos"			"0"
+			"wide"			"f15"
+			"tall"			"90"
 			"visible"		"1"	
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
-
-			"paintborder"	"1"
-			"border"		"InnerShadowBorder"
 		}
 
 		"SteamFriendsList"
@@ -1443,10 +1492,10 @@
 			"ControlName"	"CSteamFriendsListPanel"
 			"fieldname"		"SteamFriendsList"
 			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
+			"ypos"			"rs1-38"
 			"zpos"			"500"
 			"wide"			"f10"
-			"tall"			"110"
+			"tall"			"90"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
@@ -1505,7 +1554,7 @@
 			"zpos"			"499"
 			"wide"			"f10"
 			"tall"			"110"
-			"visible"		"1"	
+			"visible"		"0"	
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
@@ -1518,11 +1567,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"EventPromo"
-		"xpos"			"c-290"
+		"xpos"			"6969"
 		"ypos"			"160"
 		"zpos"			"-50"
-		"wide"			"270"
-		"tall"			"96"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 
 		"Background"
@@ -2033,10 +2082,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"c-47"
-		"ypos"			"437"
+		"xpos"			"c-70"
+		"ypos"			"80"
 		"zpos"			"11"
-		"wide"			"30"
+		"wide"			"25"
 		"tall"			"25"
 		"visible"		"1"
 
@@ -2051,7 +2100,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"p1"
+			"wide"			"25"
 			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -2067,16 +2116,24 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"RoundedCorners"	"5"
 			
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"image_drawcolor"	"200 187 161 255"
+		
+			// default style
+			"defaultBgColor_override"	"HudBlack"
+			"defaultFgColor_override"	"HudOffWhite"
+			"border_default"		"HudBlack"
+						
+			// armed style
+			"armedBgColor_override"	"Orange"
+			"armedFgColor_override" 	"HudOffWhite"
+			"border_armed"		"TFOrange"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			// depressed style    
+			"depressedBgColor_override"	"HudBlack"
+			"depressedFgColor_override" "HudOffWhite"
 
 			"proportionaltoparent"	"1"
 			
@@ -2102,8 +2159,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"c-24"
-		"ypos"			"437"
+		"xpos"			"c-70"
+		"ypos"			"110"
 		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"25"
@@ -2137,15 +2194,24 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuSubButtonBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"image_drawcolor"	"200 187 161 255"
+		
+			// default style
+			"defaultBgColor_override"	"HudBlack"
+			"defaultFgColor_override"	"HudOffWhite"
+			"border_default"		"HudBlack"
+						
+			// armed style
+			"armedBgColor_override"	"Orange"
+			"armedFgColor_override" 	"HudOffWhite"
+			"border_armed"		"TFOrange"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			// depressed style    
+			"depressedBgColor_override"	"HudBlack"
+			"depressedFgColor_override" "HudOffWhite"
+
 			"proportionaltoparent"	"1"
 			
 			"SubImage"
@@ -2169,8 +2235,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"c-1"
-		"ypos"			"437"
+		"xpos"			"c-70"
+		"ypos"			"140"
 		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"25"
@@ -2204,15 +2270,24 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuSubButtonBorder"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"image_drawcolor"	"200 187 161 255"
+		
+			// default style
+			"defaultBgColor_override"	"HudBlack"
+			"defaultFgColor_override"	"HudOffWhite"
+			"border_default"		"HudBlack"
+						
+			// armed style
+			"armedBgColor_override"	"Orange"
+			"armedFgColor_override" 	"HudOffWhite"
+			"border_armed"		"TFOrange"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			// depressed style    
+			"depressedBgColor_override"	"HudBlack"
+			"depressedFgColor_override" "HudOffWhite"
+
 			"proportionaltoparent"	"1"
 			
 			"SubImage"
@@ -2237,8 +2312,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"c22"
-		"ypos"			"437"
+		"xpos"			"c-70"
+		"ypos"			"170"
 		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"25"
@@ -2255,7 +2330,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"p1"
+			"wide"			"25"
 			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -2272,15 +2347,24 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "46 43 42 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"image_drawcolor"	"200 187 161 255"
+		
+			// default style
+			"defaultBgColor_override"	"HudBlack"
+			"defaultFgColor_override"	"HudOffWhite"
+			"border_default"		"HudBlack"
+						
+			// armed style
+			"armedBgColor_override"	"Orange"
+			"armedFgColor_override" 	"HudOffWhite"
+			"border_armed"		"TFOrange"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			// depressed style    
+			"depressedBgColor_override"	"HudBlack"
+			"depressedFgColor_override" "HudOffWhite"
+
 			"proportionaltoparent"	"1"
 			
 			"SubImage"
@@ -2303,17 +2387,16 @@
 	
 	"BackgroundFooter"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundFooter"
+		"bgcolor_override"	"HudBlack"
 		"xpos"			"0"
-		"ypos"			"420"
+		"ypos"			"414"
 		"zpos"			"-50"
 		"wide"			"f0"
-		"tall"			"60"
+		"tall"			"67"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
 	}				
 	"FooterLine"
 	{
@@ -2324,7 +2407,7 @@
 		"zpos"			"-5-"
 		"wide"			"f0"
 		"tall"			"10"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
@@ -2334,7 +2417,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"c-288"
+		"xpos"			"6969"
 		"ypos"			"rs1-18"
 		"wide"			"100"
 		"tall"			"26"
@@ -2395,7 +2478,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
-		"xpos"			"c-165"
+		"xpos"			"6969"
 		"ypos"			"rs1-18"
 		"wide"			"100"
 		"tall"			"26"
@@ -2441,7 +2524,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"c-208+273"
+		"xpos"			"6969"
 		"ypos"			"437"
 		"zpos"			"1"
 		"wide"			"30"
@@ -2489,7 +2572,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
-		"xpos"			"c-183+273"
+		"xpos"			"6969"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"26"
@@ -2537,13 +2620,13 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
-		"xpos"			"c-158+273"
-		"ypos"			"437"
+		"xpos"			"c-158+59"
+		"ypos"			"80"
 		"zpos"			"2"
-		"wide"			"30"
+		"wide"			"25"
 		"tall"			"25"
 		"autoResize"	"0"
-		"pinCorner"		"3"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -2562,9 +2645,23 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"PaintBackgroundType" "0"
-		"border_default"	"MainMenuSubButtonBorder"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"200 187 161 255"
+		
+		// default style
+		"defaultBgColor_override"	"HudBlack"
+		"defaultFgColor_override"	"HudOffWhite"
+		"border_default"		"HudBlack"
+					
+		// armed style
+		"armedBgColor_override"	"Orange"
+		"armedFgColor_override" 	"HudOffWhite"
+		"border_armed"		"TFOrange"
+		
+		// depressed style    
+		"depressedBgColor_override"	"HudBlack"
+		"depressedFgColor_override" "HudOffWhite"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2585,7 +2682,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"c-133+273"
+		"xpos"			"6969"
 		"ypos"			"437"
 		"zpos"			"3"
 		"wide"			"30"
@@ -2632,7 +2729,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CommentaryButton"
-		"xpos"			"c-108+273"
+		"xpos"			"6969"
 		"ypos"			"437"
 		"zpos"			"4"
 		"wide"			"30"
@@ -2679,13 +2776,13 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CoachPlayersButton"
-		"xpos"			"c-83+273"
-		"ypos"			"437"
+		"xpos"			"c-83+-16"
+		"ypos"			"110"
 		"zpos"			"5"
 		"wide"			"25"
 		"tall"			"25"
 		"autoResize"	"0"
-		"pinCorner"		"3"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -2703,9 +2800,23 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"MainMenuSubButtonBorder"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"200 187 161 255"
+		
+		// default style
+		"defaultBgColor_override"	"HudBlack"
+		"defaultFgColor_override"	"HudOffWhite"
+		"border_default"		"HudBlack"
+					
+		// armed style
+		"armedBgColor_override"	"Orange"
+		"armedFgColor_override" 	"HudOffWhite"
+		"border_armed"		"TFOrange"
+		
+		// depressed style    
+		"depressedBgColor_override"	"HudBlack"
+		"depressedFgColor_override" "HudOffWhite"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2726,10 +2837,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"WorkshopButton"
-		"xpos"			"c-63+273"
-		"ypos"			"437"
+		"xpos"			"c-63+-36"
+		"ypos"			"140"
 		"zpos"			"4"
-		"wide"			"30"
+		"wide"			"25"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -2750,14 +2861,28 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"MainMenuSubButtonBorder"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"200 187 161 255"
+		
+		// default style
+		"defaultBgColor_override"	"HudBlack"
+		"defaultFgColor_override"	"HudOffWhite"
+		"border_default"		"HudBlack"
+					
+		// armed style
+		"armedBgColor_override"	"Orange"
+		"armedFgColor_override" 	"HudOffWhite"
+		"border_armed"		"TFOrange"
+		
+		// depressed style    
+		"depressedBgColor_override"	"HudBlack"
+		"depressedFgColor_override" "HudOffWhite"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"9"
+			"xpos"			"6"
 			"ypos"			"6"
 			"zpos"			"1"
 			"wide"			"15"
@@ -2773,8 +2898,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReplayButton"
-		"xpos"			"c-34+273"
-		"ypos"			"437"
+		"xpos"			"c-34+-65"
+		"ypos"			"170"
 		"zpos"			"5"
 		"wide"			"25"
 		"tall"			"25"
@@ -2797,9 +2922,23 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"MainMenuSubButtonBorder"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"200 187 161 255"
+		
+		// default style
+		"defaultBgColor_override"	"HudBlack"
+		"defaultFgColor_override"	"HudOffWhite"
+		"border_default"		"HudBlack"
+					
+		// armed style
+		"armedBgColor_override"	"Orange"
+		"armedFgColor_override" 	"HudOffWhite"
+		"border_armed"		"TFOrange"
+		
+		// depressed style    
+		"depressedBgColor_override"	"HudBlack"
+		"depressedFgColor_override" "HudOffWhite"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2820,10 +2959,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"c-14+273"
-		"ypos"			"437"
+		"xpos"			"c-14+-85"
+		"ypos"			"200"
 		"zpos"			"4"
-		"wide"			"30"
+		"wide"			"25"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -2845,12 +2984,27 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"200 187 161 255"
+		
+		// default style
+		"defaultBgColor_override"	"HudBlack"
+		"defaultFgColor_override"	"HudOffWhite"
+		"border_default"		"HudBlack"
+					
+		// armed style
+		"armedBgColor_override"	"Orange"
+		"armedFgColor_override" 	"HudOffWhite"
+		"border_armed"		"TFOrange"
+		
+		// depressed style    
+		"depressedBgColor_override"	"HudBlack"
+		"depressedFgColor_override" "HudOffWhite"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"10"
+			"xpos"			"5"
 			"ypos"			"5"
 			"zpos"			"1"
 			"wide"			"15"
@@ -2937,4 +3091,946 @@
 			"angles_z"		"0"
 		}
 	}
+	
+	// CS
+	MainPanel{
+		ControlName			"EditablePanel"
+		fieldName			"MainPanel"
+		bgcolor_override	"TransparentBlack"
+		xpos				"67"
+		ypos				"80"
+		wide				"256"
+		tall				"331"
+		visible				"1"
+		enabled				"1"
+		paintbackgroundtype	"2"
+		
+		WelcomeLabel{
+			"ControlName"		"EditablePanel"
+			"fieldname"			"WelcomeLabel"
+			"xpos"				"4"
+			"ypos"				"3"
+			"zpos"				"0"
+			"wide"				"236"
+			"tall"				"53"
+			
+			"visible"			"1"
+			
+			SubButton{
+				ControlName					CExImageButton
+				fieldName					SubButton
+				xpos						0
+				ypos						0
+				wide						236
+				tall						53
+				autoResize					0
+				pinCorner					0
+				visible						1
+				enabled						1
+				textinsety					9
+				textinsetx					15
+				font						HudFontMediumBold
+				labelText					#TF_Welcome
+				textAlignment				north-west
+				dulltext					0
+				brighttext					0
+				default						1
+				fgcolor						HudOffWhite
+				
+				"paintbackground"	"0"
+				"paintborder"		"0"
+				
+				"defaultFgColor_override"	"HudOffWhite"
+				"armedFgColor_override" 	"HudOffWhite"
+				"depressedFgColor_override" "HudOffWhite"
+			}
+		}
+		
+		TFOptionsLabel{
+			"ControlName"		"EditablePanel"
+			"fieldname"			"TFOptionsLabel"
+			"xpos"				"4"
+			"ypos"				"3"
+			"zpos"				"0"
+			"wide"				"236"
+			"tall"				"53"
+			
+			"visible"			"1"
+			
+			SubButton{
+				ControlName					CExImageButton
+				fieldName					SubButton
+				xpos						0
+				ypos						0
+				wide						236
+				tall						53
+				autoResize					0
+				pinCorner					0
+				visible						1
+				enabled						1
+				textinsety					9
+				textinsetx					15
+				font						HudFontMediumBold
+				labelText					#TF_Welcome
+				textAlignment				north-west
+				dulltext					0
+				brighttext					0
+				default						1
+				fgcolor						HudOffWhite
+				
+				"paintbackground"	"0"
+				"paintborder"		"0"
+				
+				"defaultFgColor_override"	"HudOffWhite"
+				"armedFgColor_override" 	"HudOffWhite"
+				"depressedFgColor_override" "HudOffWhite"
+			}
+		}
+		
+		CustomMatchButton{
+			"ControlName"		"EditablePanel"
+			"fieldname"			"CustomMatchButton"
+			"xpos"				"10"
+			"ypos"				"32"
+			"zpos"				"0"
+			"wide"				"236"
+			"tall"				"53"
+			
+			"visible"			"1"
+			
+			SubButton{
+				ControlName					CExImageButton
+				fieldName					SubButton
+				xpos						0
+				ypos						0
+				wide						236
+				tall						53
+				autoResize					0
+				pinCorner					0
+				visible						1
+				enabled						1
+				textinsety					9
+				textinsetx					15
+				font						HudFontMediumSmallSecondary
+				textAlignment				north-west
+				dulltext					0
+				brighttext					0
+				default						1
+				fgcolor						HudOffWhite
+				
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				// default style
+				"defaultBgColor_override"	"HudBlack"
+				"defaultFgColor_override"	"HudOffWhite"
+				"border_default"		"HudBlack"
+					
+				// armed style
+				"armedBgColor_override"	"Orange"
+				"armedFgColor_override" 	"HudOffWhite"
+				"border_armed"		"TFOrange"
+				
+				// depressed style    
+				"depressedBgColor_override"	"Black"
+				"depressedFgColor_override" "HudOffWhite"
+			}
+			
+			CustomMatchLabel{
+				"ControlName"			"CExLabel"
+				"fieldName"				"CustomMatchLabel"
+				"font"					"DefaultLarge"
+				"labelText"				"#TF_CustomMatch_Desc"
+				"textAlignment"			"south-west"
+				"xpos"					"7"
+				"ypos"					"18"
+				"zpos"					"1"
+				"wide"					"200"
+				"tall"					"30"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"1"
+				"enabled"				"1"
+				"fgcolor_override"		"HudOffWhite"
+				"mouseinputenabled"		"0"
+			}	
+		}
+		
+		HostMatchButton{
+			"ControlName"		"EditablePanel"
+			"fieldname"			"HostMatchButton"
+			"xpos"				"10"
+			"ypos"				"87"
+			"zpos"				"0"
+			"wide"				"236"
+			"tall"				"51"
+			
+			"visible"			"1"
+			
+			SubButton{
+				ControlName					CExImageButton
+				fieldName					SubButton
+				xpos						0
+				ypos						0
+				wide						236
+				tall						51
+				autoResize					0
+				pinCorner					0
+				visible						1
+				enabled						1
+				textinsety					9
+				textinsetx					15
+				font						HudFontMediumSmallSecondary
+				textAlignment				north-west
+				dulltext					0
+				brighttext					0
+				default						1
+				fgcolor						HudOffWhite
+				
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				// default style
+				"defaultBgColor_override"	"HudBlack"
+				"defaultFgColor_override"	"HudOffWhite"
+				"border_default"		"HudBlack"
+					
+				// armed style
+				"armedBgColor_override"	"Orange"
+				"armedFgColor_override" 	"HudOffWhite"
+				"border_armed"		"TFOrange"
+				
+				// depressed style    
+				"depressedBgColor_override"	"Black"
+				"depressedFgColor_override" "HudOffWhite"
+			}
+			
+			HostMatchLabel{
+				"ControlName"			"CExLabel"
+				"fieldName"				"HostMatchLabel"
+				"font"					"DefaultLarge"
+				"labelText"				"#TF_HostMatch_Desc"
+				"textAlignment"			"south-west"
+				"xpos"					"7"
+				"ypos"					"18"
+				"zpos"					"11"
+				"wide"					"200"
+				"tall"					"30"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"1"
+				"enabled"				"1"
+				"fgcolor_override"		"HudOffWhite"
+				"mouseinputenabled"		"0"
+			}	
+		}
+		
+		LoadoutMenuButton{
+			"ControlName"		"EditablePanel"
+			"fieldname"			"LoadoutMenuButton"
+			"xpos"				"10"
+			"ypos"				"s5.8"
+			"zpos"				"0"
+			"wide"				"236"
+			"tall"				"24"
+			
+			"visible"			"1"
+			
+			SubButton{
+				ControlName					CExImageButton
+				fieldName					SubButton
+				xpos						0
+				ypos						0
+				wide						236
+				tall						24
+				autoResize					0
+				pinCorner					0
+				visible						1
+				enabled						1
+				textinsety					7
+				textinsetx					15
+				font						HudFontMediumSmallSecondary
+				textAlignment				north-west
+				dulltext					0
+				brighttext					0
+				default						1
+				fgcolor						HudOffWhite
+				
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				// default style
+				"defaultBgColor_override"	"HudBlack"
+				"defaultFgColor_override"	"HudOffWhite"
+				"border_default"		"HudBlack"
+					
+				// armed style
+				"armedBgColor_override"	"Orange"
+				"armedFgColor_override" 	"HudOffWhite"
+				"border_armed"		"TFOrange"
+				
+				// depressed style    
+				"depressedBgColor_override"	"Black"
+				"depressedFgColor_override" "HudOffWhite"
+			}
+		}
+		
+		ShopMenuButton{
+			"ControlName"		"EditablePanel"
+			"fieldname"			"ShopMenuButton"
+			"xpos"				"10"
+			"ypos"				"s6.88"
+			"zpos"				"0"
+			"wide"				"236"
+			"tall"				"24"
+			
+			"visible"			"1"
+			
+			SubButton{
+				ControlName					CExImageButton
+				fieldName					SubButton
+				xpos						0
+				ypos						0
+				wide						236
+				tall						24
+				autoResize					0
+				pinCorner					0
+				visible						1
+				enabled						1
+				textinsety					7
+				textinsetx					15
+				font						HudFontMediumSmallSecondary
+				textAlignment				north-west
+				dulltext					0
+				brighttext					0
+				default						1
+				fgcolor						HudOffWhite
+				
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				// default style
+				"defaultBgColor_override"	"HudBlack"
+				"defaultFgColor_override"	"HudOffWhite"
+				"border_default"		"HudBlack"
+					
+				// armed style
+				"armedBgColor_override"	"Orange"
+				"armedFgColor_override" 	"HudOffWhite"
+				"border_armed"		"TFOrange"
+				
+				// depressed style    
+				"depressedBgColor_override"	"Black"
+				"depressedFgColor_override" "HudOffWhite"
+			}
+		}
+		
+		DeveloperCommentaryButton{
+			"ControlName"		"EditablePanel"
+			"fieldname"			"DeveloperCommentaryButton"
+			"xpos"				"10"
+			"ypos"				"s7.96"
+			"zpos"				"0"
+			"wide"				"236"
+			"tall"				"24"
+			
+			"visible"			"1"
+			
+			SubButton{
+				ControlName					CExImageButton
+				fieldName					SubButton
+				xpos						0
+				ypos						0
+				wide						236
+				tall						24
+				autoResize					0
+				pinCorner					0
+				visible						1
+				enabled						1
+				textinsety					7
+				textinsetx					15
+				font						HudFontMediumSmallSecondary
+				textAlignment				north-west
+				dulltext					0
+				brighttext					0
+				default						1
+				fgcolor						HudOffWhite
+				
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				// default style
+				"defaultBgColor_override"	"HudBlack"
+				"defaultFgColor_override"	"HudOffWhite"
+				"border_default"		"HudBlack"
+					
+				// armed style
+				"armedBgColor_override"	"Orange"
+				"armedFgColor_override" 	"HudOffWhite"
+				"border_armed"		"TFOrange"
+				
+				// depressed style    
+				"depressedBgColor_override"	"Black"
+				"depressedFgColor_override" "HudOffWhite"
+			}
+		}
+		
+		CS_AchievementsButton{
+			"ControlName"		"EditablePanel"
+			"fieldname"			"CS_AchievementsButton"
+			"xpos"				"10"
+			"ypos"				"s9.03"
+			"zpos"				"0"
+			"wide"				"236"
+			"tall"				"24"
+			
+			"visible"			"1"
+			
+			SubButton{
+				ControlName					CExImageButton
+				fieldName					SubButton
+				xpos						0
+				ypos						0
+				wide						236
+				tall						24
+				autoResize					0
+				pinCorner					0
+				visible						1
+				enabled						1
+				textinsety					7
+				textinsetx					15
+				font						HudFontMediumSmallSecondary
+				textAlignment				north-west
+				dulltext					0
+				brighttext					0
+				default						1
+				fgcolor						HudOffWhite
+				
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				// default style
+				"defaultBgColor_override"	"HudBlack"
+				"defaultFgColor_override"	"HudOffWhite"
+				"border_default"		"HudBlack"
+					
+				// armed style
+				"armedBgColor_override"	"Orange"
+				"armedFgColor_override" 	"HudOffWhite"
+				"border_armed"		"TFOrange"
+				
+				// depressed style    
+				"depressedBgColor_override"	"Black"
+				"depressedFgColor_override" "HudOffWhite"
+			}
+		}
+		
+		TF2OptionsButton{
+			"ControlName"		"EditablePanel"
+			"fieldname"			"TF2OptionsButton"
+			"xpos"				"10"
+			"ypos"				"s10.1"
+			"zpos"				"0"
+			"wide"				"236"
+			"tall"				"24"
+			
+			"visible"			"1"
+			
+			SubButton{
+				ControlName					CExImageButton
+				fieldName					SubButton
+				xpos						0
+				ypos						0
+				wide						236
+				tall						24
+				autoResize					0
+				pinCorner					0
+				visible						1
+				enabled						1
+				textinsety					7
+				textinsetx					15
+				font						HudFontMediumSmallSecondary
+				textAlignment				north-west
+				dulltext					0
+				brighttext					0
+				default						1
+				fgcolor						HudOffWhite
+				
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				// default style
+				"defaultBgColor_override"	"HudBlack"
+				"defaultFgColor_override"	"HudOffWhite"
+				"border_default"		"HudBlack"
+					
+				// armed style
+				"armedBgColor_override"	"Orange"
+				"armedFgColor_override" 	"HudOffWhite"
+				"border_armed"		"TFOrange"
+				
+				// depressed style    
+				"depressedBgColor_override"	"Black"
+				"depressedFgColor_override" "HudOffWhite"
+			}
+		}
+		
+		LegacyOptionsButton{
+			"ControlName"		"EditablePanel"
+			"fieldname"			"LegacyOptionsButton"
+			"xpos"				"10"
+			"ypos"				"s11.17"
+			"zpos"				"0"
+			"wide"				"236"
+			"tall"				"24"
+			
+			"visible"			"1"
+			
+			SubButton{
+				ControlName					CExImageButton
+				fieldName					SubButton
+				xpos						0
+				ypos						0
+				wide						236
+				tall						24
+				autoResize					0
+				pinCorner					0
+				visible						1
+				enabled						1
+				textinsety					7
+				textinsetx					15
+				font						HudFontMediumSmallSecondary
+				textAlignment				north-west
+				dulltext					0
+				brighttext					0
+				default						1
+				fgcolor						HudOffWhite
+				
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				// default style
+				"defaultBgColor_override"	"HudBlack"
+				"defaultFgColor_override"	"HudOffWhite"
+				"border_default"		"HudBlack"
+					
+				// armed style
+				"armedBgColor_override"	"Orange"
+				"armedFgColor_override" 	"HudOffWhite"
+				"border_armed"		"TFOrange"
+				
+				// depressed style    
+				"depressedBgColor_override"	"Black"
+				"depressedFgColor_override" "HudOffWhite"
+			}
+		}
+			
+		CS_QuitButton{
+			"ControlName"		"EditablePanel"
+			"fieldname"			"CS_QuitButton"
+			"xpos"				"10"
+			"ypos"				"s12.25"
+			"zpos"				"0"
+			"wide"				"236"
+			"tall"				"24"
+			
+			"visible"			"1"
+			
+			SubButton{
+				ControlName					CExImageButton
+				fieldName					SubButton
+				xpos						0
+				ypos						0
+				wide						236
+				tall						24
+				autoResize					0
+				pinCorner					0
+				visible						1
+				enabled						1
+				textinsety					7
+				textinsetx					15
+				font						HudFontMediumSmallSecondary
+				textAlignment				north-west
+				dulltext					0
+				brighttext					0
+				default						1
+				fgcolor						HudOffWhite
+				
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				// default style
+				"defaultBgColor_override"	"HudBlack"
+				"defaultFgColor_override"	"HudOffWhite"
+				"border_default"		"HudBlack"
+					
+				// armed style
+				"armedBgColor_override"	"Orange"
+				"armedFgColor_override" 	"HudOffWhite"
+				"border_armed"		"TFOrange"
+				
+				// depressed style    
+				"depressedBgColor_override"	"Black"
+				"depressedFgColor_override" "HudOffWhite"
+			}
+		}
+		
+		// OnlyInGame
+		ChangeClassButton{
+			"ControlName"		"EditablePanel"
+			"fieldname"			"ChangeClassButton"
+			"xpos"				"10"
+			"ypos"				"32"
+			"zpos"				"0"
+			"wide"				"236"
+			"tall"				"24"
+			
+			"visible"			"1"
+			
+			SubButton{
+				ControlName					CExImageButton
+				fieldName					SubButton
+				xpos						0
+				ypos						0
+				wide						236
+				tall						24
+				autoResize					0
+				pinCorner					0
+				visible						1
+				enabled						1
+				textinsety					7
+				textinsetx					15
+				font						HudFontMediumSmallSecondary
+				textAlignment				north-west
+				dulltext					0
+				brighttext					0
+				default						1
+				fgcolor						HudOffWhite
+				
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				// default style
+				"defaultBgColor_override"	"HudBlack"
+				"defaultFgColor_override"	"HudOffWhite"
+				"border_default"		"HudBlack"
+					
+				// armed style
+				"armedBgColor_override"	"Orange"
+				"armedFgColor_override" 	"HudOffWhite"
+				"border_armed"		"TFOrange"
+				
+				// depressed style    
+				"depressedBgColor_override"	"Black"
+				"depressedFgColor_override" "HudOffWhite"
+			}
+		}
+		
+		ChangeTeamButton{
+			"ControlName"		"EditablePanel"
+			"fieldname"			"ChangeTeamButton"
+			"xpos"				"10"
+			"ypos"				"58"
+			"zpos"				"0"
+			"wide"				"236"
+			"tall"				"24"
+			
+			"visible"			"1"
+			
+			SubButton{
+				ControlName					CExImageButton
+				fieldName					SubButton
+				xpos						0
+				ypos						0
+				wide						236
+				tall						24
+				autoResize					0
+				pinCorner					0
+				visible						1
+				enabled						1
+				textinsety					7
+				textinsetx					15
+				font						HudFontMediumSmallSecondary
+				textAlignment				north-west
+				dulltext					0
+				brighttext					0
+				default						1
+				fgcolor						HudOffWhite
+				
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				// default style
+				"defaultBgColor_override"	"HudBlack"
+				"defaultFgColor_override"	"HudOffWhite"
+				"border_default"		"HudBlack"
+					
+				// armed style
+				"armedBgColor_override"	"Orange"
+				"armedFgColor_override" 	"HudOffWhite"
+				"border_armed"		"TFOrange"
+				
+				// depressed style    
+				"depressedBgColor_override"	"Black"
+				"depressedFgColor_override" "HudOffWhite"
+			}
+		}
+		MapInformationButton{
+			"ControlName"		"EditablePanel"
+			"fieldname"			"MapInformationButton"
+			"xpos"				"10"
+			"ypos"				"s3.49"
+			"zpos"				"0"
+			"wide"				"236"
+			"tall"				"24"
+			
+			"visible"			"1"
+			
+			SubButton{
+				ControlName					CExImageButton
+				fieldName					SubButton
+				xpos						0
+				ypos						0
+				wide						236
+				tall						24
+				autoResize					0
+				pinCorner					0
+				visible						1
+				enabled						1
+				textinsety					7
+				textinsetx					15
+				font						HudFontMediumSmallSecondary
+				textAlignment				north-west
+				dulltext					0
+				brighttext					0
+				default						1
+				fgcolor						HudOffWhite
+				
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				// default style
+				"defaultBgColor_override"	"HudBlack"
+				"defaultFgColor_override"	"HudOffWhite"
+				"border_default"		"HudBlack"
+					
+				// armed style
+				"armedBgColor_override"	"Orange"
+				"armedFgColor_override" 	"HudOffWhite"
+				"border_armed"		"TFOrange"
+				
+				// depressed style    
+				"depressedBgColor_override"	"Black"
+				"depressedFgColor_override" "HudOffWhite"
+			}
+		}
+		InGame_AchievementsButton{
+			"ControlName"		"EditablePanel"
+			"fieldname"			"InGame_AchievementsButton"
+			"xpos"				"10"
+			"ypos"				"s4.57"
+			"zpos"				"0"
+			"wide"				"236"
+			"tall"				"24"
+			
+			"visible"			"1"
+			
+			SubButton{
+				ControlName					CExImageButton
+				fieldName					SubButton
+				xpos						0
+				ypos						0
+				wide						236
+				tall						24
+				autoResize					0
+				pinCorner					0
+				visible						1
+				enabled						1
+				textinsety					7
+				textinsetx					15
+				font						HudFontMediumSmallSecondary
+				textAlignment				north-west
+				dulltext					0
+				brighttext					0
+				default						1
+				fgcolor						HudOffWhite
+				
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				// default style
+				"defaultBgColor_override"	"HudBlack"
+				"defaultFgColor_override"	"HudOffWhite"
+				"border_default"		"HudBlack"
+					
+				// armed style
+				"armedBgColor_override"	"Orange"
+				"armedFgColor_override" 	"HudOffWhite"
+				"border_armed"		"TFOrange"
+				
+				// depressed style    
+				"depressedBgColor_override"	"Black"
+				"depressedFgColor_override" "HudOffWhite"
+			}
+		}
+		InGame_LoadoutMenuButton{
+			"ControlName"		"EditablePanel"
+			"fieldname"			"InGame_LoadoutMenuButton"
+			"xpos"				"10"
+			"ypos"				"s5.63"
+			"zpos"				"0"
+			"wide"				"236"
+			"tall"				"24"
+			
+			"visible"			"1"
+			
+			SubButton{
+				ControlName					CExImageButton
+				fieldName					SubButton
+				xpos						0
+				ypos						0
+				wide						236
+				tall						24
+				autoResize					0
+				pinCorner					0
+				visible						1
+				enabled						1
+				textinsety					7
+				textinsetx					15
+				font						HudFontMediumSmallSecondary
+				textAlignment				north-west
+				dulltext					0
+				brighttext					0
+				default						1
+				fgcolor						HudOffWhite
+				
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				// default style
+				"defaultBgColor_override"	"HudBlack"
+				"defaultFgColor_override"	"HudOffWhite"
+				"border_default"		"HudBlack"
+					
+				// armed style
+				"armedBgColor_override"	"Orange"
+				"armedFgColor_override" 	"HudOffWhite"
+				"border_armed"		"TFOrange"
+				
+				// depressed style    
+				"depressedBgColor_override"	"Black"
+				"depressedFgColor_override" "HudOffWhite"
+			}
+		}
+		InGame_LegacyOptionsButton{
+			"ControlName"		"EditablePanel"
+			"fieldname"			"InGame_LegacyOptionsButton"
+			"xpos"				"10"
+			"ypos"				"s6.71"
+			"zpos"				"0"
+			"wide"				"236"
+			"tall"				"24"
+			
+			"visible"			"1"
+			
+			SubButton{
+				ControlName					CExImageButton
+				fieldName					SubButton
+				xpos						0
+				ypos						0
+				wide						236
+				tall						24
+				autoResize					0
+				pinCorner					0
+				visible						1
+				enabled						1
+				textinsety					7
+				textinsetx					15
+				font						HudFontMediumSmallSecondary
+				textAlignment				north-west
+				dulltext					0
+				brighttext					0
+				default						1
+				fgcolor						HudOffWhite
+				
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				// default style
+				"defaultBgColor_override"	"HudBlack"
+				"defaultFgColor_override"	"HudOffWhite"
+				"border_default"		"HudBlack"
+					
+				// armed style
+				"armedBgColor_override"	"Orange"
+				"armedFgColor_override" 	"HudOffWhite"
+				"border_armed"		"TFOrange"
+				
+				// depressed style    
+				"depressedBgColor_override"	"Black"
+				"depressedFgColor_override" "HudOffWhite"
+			}
+		}
+		DisconnectButton{
+			"ControlName"		"EditablePanel"
+			"fieldname"			"DisconnectButton"
+			"xpos"				"10"
+			"ypos"				"s7.81"
+			"zpos"				"0"
+			"wide"				"236"
+			"tall"				"24"
+			
+			"visible"			"1"
+			
+			SubButton{
+				ControlName					CExImageButton
+				fieldName					SubButton
+				xpos						0
+				ypos						0
+				wide						236
+				tall						24
+				autoResize					0
+				pinCorner					0
+				visible						1
+				enabled						1
+				textinsety					7
+				textinsetx					15
+				font						HudFontMediumSmallSecondary
+				textAlignment				north-west
+				dulltext					0
+				brighttext					0
+				default						1
+				fgcolor						HudOffWhite
+				
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				// default style
+				"defaultBgColor_override"	"HudBlack"
+				"defaultFgColor_override"	"HudOffWhite"
+				"border_default"		"HudBlack"
+					
+				// armed style
+				"armedBgColor_override"	"Orange"
+				"armedFgColor_override" 	"HudOffWhite"
+				"border_armed"		"TFOrange"
+				
+				// depressed style    
+				"depressedBgColor_override"	"Black"
+				"depressedFgColor_override" "HudOffWhite"
+			}
+		}
+	}
+	
+	"DashboardDimmer"
+    {
+        "wide" "f0"
+        "tall" "414"
+        "paintbackground"    "1"
+    }
+	
+	"CasualCriteria"
+	{
+		ypos	5
+    }
 }
