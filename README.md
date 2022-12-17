@@ -33,18 +33,20 @@ Configurations to set mostly with the Developer Console tool. Optional, recommen
 * `cl_crosshair_scale 48`
 * `tf_hud_target_id_disable_floating_health 0`
 * `tf_hud_target_id_alpha 249`
+* `tf_use_match_hud 0`
 
 # Screenies
 Screenshots of the heads up display, some may be slightly outdated.
-| ![Spy, enlarged class images.](https://cdn.discordapp.com/attachments/919991312395165706/1050807126731276328/Team_Fortress_2_Screenshot_2022.12.09_-_23.06.14.33.png)                                 | ![Engineer with the normal version of Engineering display HUD.](https://i.imgur.com/lhTCuWh.png)                                                 |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Scout, with Soda Popper, Cleaver, and the Sandman equipped.](https://cdn.discordapp.com/attachments/919991312395165706/1050807127117135902/Team_Fortress_2_Screenshot_2022.12.09_-_23.07.28.81.png) | ![Spy, with the Disguise menu opened.](https://i.imgur.com/LXhPOBW.png)                                                                          |
-| ![Engineer, active Sentry Gun and Dispenser, chat HUD, close captions, and building TargetID.](https://i.imgur.com/FBD1FsX.png)                                                                       | ![Engineer, with the Building status showing, Frontier Justice, death notice showing, and Metal count showing.](https://i.imgur.com/LXhPOBW.png) |
-| ![Engineer with the Pip-Boy cosmetic version of Engineering display HUD.](https://i.imgur.com/6AoK0Ux.png)                                                                                            | ![Spy, Diamond Back, Spycicle, and Invis Watch. Not disguised.](https://i.imgur.com/JS87Pxb.png)                                                 |
+| ![](https://i.imgur.com/162bE87.png)                                                                                                       	| ![](https://i.imgur.com/RyhXKRz.png) 	|
+|--------------------------------------------------------------------------------------------------------------------------------------------	|--------------------------------------	|
+| ![](https://cdn.discordapp.com/attachments/919991312395165706/1050807126731276328/Team_Fortress_2_Screenshot_2022.12.09_-_23.06.14.33.png) 	| ![](https://i.imgur.com/lhTCuWh.png) 	|
+| ![](https://cdn.discordapp.com/attachments/919991312395165706/1050807127117135902/Team_Fortress_2_Screenshot_2022.12.09_-_23.07.28.81.png) 	| ![](https://i.imgur.com/LXhPOBW.png) 	|
+| ![](https://i.imgur.com/FBD1FsX.png)                                                                                                       	| ![](https://i.imgur.com/LXhPOBW.png) 	|
+| ![](https://i.imgur.com/6AoK0Ux.png)                                                                                                       	| ![](https://i.imgur.com/JS87Pxb.png) 	|
 
 # To-do
-* Main-menu.
 * Stats position.
+* Fix custom labels.
 
 # Credits
 * HUDS.TF community for help.
