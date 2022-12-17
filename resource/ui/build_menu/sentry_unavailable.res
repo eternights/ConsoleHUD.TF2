@@ -4,7 +4,7 @@
 {
 	"ItemNameLabel"
 	{	
-		"labelText"		"Sentry
+		"labelText"		"Sentry"
 		"labelText_lodef"		"Sentry"
 		"font"			"HudFontSmall"
 	}
