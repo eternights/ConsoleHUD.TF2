@@ -410,13 +410,14 @@
 		"fieldName"		"ServerLabel"
 		"font"			"ScoreboardVerySmall"
 		"labelText"		"%server%"
-		"textAlignment"		"west"
+		"textAlignment"		"north-west"
 		"xpos"			"20"
 		"xpos_hidef"	"31"
 		"ypos"			"60"
 		"ypos_lodef"	"62"
-		"wide"			"300"
-		"tall"			"20"
+		"wide"			"175"
+		"wrap"			"1"
+		"tall"			"200"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -424,7 +425,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"4"
+			"ypos"			"12"
 			"xpos"			"42"
 			"visible"		"1"
 		}
@@ -692,6 +693,7 @@
 		if_mvm
 		{
 			"visible"		"1"
+			"ypos"			"344"
 		}
 	}
 	"classmodelpanel"
