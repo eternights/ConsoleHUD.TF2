@@ -226,7 +226,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"c-100"
+		"xpos"			"325"
 		"ypos"			"r124"
 		"zpos"			"0"
 		"wide"			"200"
@@ -503,8 +503,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c148"
-		"ypos"			"28"
+		"xpos"			"328"
+		"ypos"			"320"
 		"zpos"			"10"
 		"wide"			"32"
 		"tall"			"32"
@@ -523,7 +523,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"16"
+			"xpos"			"14"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"16"
@@ -532,7 +532,8 @@
 			"enabled"		"1"
 			"image"			"glyph_achievements"
 			"scaleImage"	"1"
-			"drawcolor" "210 125 33 255"
+			"drawcolor" "Orange"
+			"mouseinputenabled"	"0"
 		}				
 		
 		"Notifications_CountLabel"
@@ -542,7 +543,7 @@
 			"font"			"HudFontSmallestBold"
 			"labelText"		"%noticount%"
 			"textAlignment"	"center"
-			"xpos"			"16"
+			"xpos"			"14"
 			"ypos"			"0"
 			"zpos"			"4"
 			"wide"			"16"
@@ -551,7 +552,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"HudOffWhite"
+			"mouseinputenabled"	"0"
 		}
 	
 		"Notifications_ShowButtonPanel_SB"
@@ -561,8 +563,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"32"
-			"tall"			"32"
+			"wide"			"25"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -581,9 +583,22 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"paintbackground" "1"
+			"image_drawcolor"	"200 187 161 255"
+		
+			// default style
+			"defaultBgColor_override"	"HudBlack"
+			"defaultFgColor_override"	"HudOffWhite"
+			"border_default"		"HudBlack"
+						
+			// armed style
+			"armedBgColor_override"	"Orange"
+			"armedFgColor_override" 	"HudOffWhite"
+			"border_armed"		"TFOrange"
+			
+			// depressed style    
+			"depressedBgColor_override"	"HudBlack"
+			"depressedFgColor_override" "HudOffWhite"	
 			
 			"SubImage"
 			{
@@ -592,8 +607,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"32"
-				"tall"			"32"
+				"wide"			"25"
+				"tall"			"25"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"button_Alert"
@@ -606,7 +621,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"c-99"
+		"xpos"			"328"
 		"ypos"			"230"
 		"zpos"			"1"
 		"wide"			"32"
@@ -692,7 +707,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"c-99"
+		"xpos"			"328"
 		"ypos"			"260"
 		"zpos"			"1"
 		"wide"			"25"
@@ -778,7 +793,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c-99"
+		"xpos"			"328"
 		"ypos"			"290"
 		"zpos"			"1"
 		"wide"			"25"
@@ -859,14 +874,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"c-60"
+		"xpos"			"r465"
 		"ypos"			"60"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"350"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
+		"paintborder"		"0"
+		"bgcolor_override"	"TransparentBlack"
 		"border"		"MainMenuHighlightBorder"
 
 		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
@@ -882,6 +899,9 @@
 			"wide"			"300"
 			"tall"			"22"
 			"visible"		"1"
+			"paintborder"		"0"
+			"PaintBackgroundType" "2"
+			"bgcolor_override"	"65 65 65 255"
 			
 			"MOTD_HeaderLabel"
 			{
@@ -898,9 +918,11 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
+				"paintbackground"	"1"
+				"paintborder"		"0"
 				"PaintBackgroundType" "2"
-				"fgcolor_override"	"235 226 202 255"
-				"bgcolor_override"	"141 178 61 255"
+				"fgcolor_override"	"200 187 161 255"
+				"bgcolor_override"	"65 65 65 255"
 			}
 		}
 		
@@ -941,8 +963,8 @@
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"200 80 60 255"
+			"image_drawcolor"	"65 65 65 255"
+			"image_armedcolor"	"178 82 22 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -971,6 +993,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			"class_icons/filter_all_motd"
+			"drawcolor_override"		"200 187 161 255"
 			"scaleImage"	"1"
 		}
 			
@@ -989,7 +1012,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"LabelDark"
+			"fgcolor"		"HudOffWhite"
 			"wrap"			"1"
 		}
 		
@@ -1008,7 +1031,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"LabelDark"
+			"fgcolor"		"HudOffWhite"
 		}
 		
 		"MOTD_TitleImageBg"
@@ -1064,7 +1087,7 @@
 			"wide"			"280"
 			"tall"			"115"
 			"PaintBackgroundType"	"2"
-			"fgcolor"		"LabelDark"
+			"fgcolor"		"HudOffWhite"
 			
 			"MOTD_TextPanel"
 			{
@@ -1092,7 +1115,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor"		"LabelDark"
+			"fgcolor"		"HudOffWhite"
 					"wrap"			"1"
 				}
 			}
@@ -1131,10 +1154,12 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" "235 226 202 255"
-			"defaultBgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "235 226 202 255"
+			"defaultFgColor_override" "200 187 161 255"
+			"defaultBgColor_override" "65 65 65 255"
+			"armedFgColor_override" "200 187 161 255"
+			"armedBgColor_override"	"178 82 22 255"
+			"depressedFgColor_override" "200 187 161 255"
+			"depressedBgColor_override"	"178 82 22 255"
 		}	
 		
 		"MOTD_PrevButton"
@@ -1238,14 +1263,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c0"
-		"ypos"			"102"
+		"xpos"			"328"
+		"ypos"			"r160"
 		"zpos"			"10"
 		"wide"			"210"
 		"tall"			"80"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
+		"paintborder"		"0"
+		"bgcolor_override"	"TransparentBlack"
 		"border"		"MainMenuHighlightBorder"
 
 		"navUp"			"MOTD_ShowButtonPanel"
@@ -1288,8 +1315,8 @@
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
+			"image_drawcolor"	"65 65 65 255"
+			"image_armedcolor"	"178 82 22 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1321,7 +1348,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"LabelDark"
+			"fgcolor"		"HudOffWhite"
 			"wrap"			"1"
 		}
 		
@@ -2620,7 +2647,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
-		"xpos"			"c-158+59"
+		"xpos"			"328"
 		"ypos"			"80"
 		"zpos"			"2"
 		"wide"			"25"
@@ -2776,7 +2803,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CoachPlayersButton"
-		"xpos"			"c-83+-16"
+		"xpos"			"328"
 		"ypos"			"110"
 		"zpos"			"5"
 		"wide"			"25"
@@ -2837,7 +2864,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"WorkshopButton"
-		"xpos"			"c-63+-36"
+		"xpos"			"328"
 		"ypos"			"140"
 		"zpos"			"4"
 		"wide"			"25"
@@ -2898,7 +2925,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReplayButton"
-		"xpos"			"c-34+-65"
+		"xpos"			"328"
 		"ypos"			"170"
 		"zpos"			"5"
 		"wide"			"25"
@@ -2959,7 +2986,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"c-14+-85"
+		"xpos"			"328"
 		"ypos"			"200"
 		"zpos"			"4"
 		"wide"			"25"
@@ -3239,13 +3266,13 @@
 			CustomMatchLabel{
 				"ControlName"			"CExLabel"
 				"fieldName"				"CustomMatchLabel"
-				"font"					"DefaultLarge"
+				"font"					"MainMenuDesc"
 				"labelText"				"#TF_CustomMatch_Desc"
 				"textAlignment"			"south-west"
-				"xpos"					"7"
-				"ypos"					"18"
+				"xpos"					"6"
+				"ypos"					"20"
 				"zpos"					"1"
-				"wide"					"200"
+				"wide"					"236"
 				"tall"					"30"
 				"autoResize"			"0"
 				"pinCorner"				"0"
@@ -3308,16 +3335,16 @@
 			HostMatchLabel{
 				"ControlName"			"CExLabel"
 				"fieldName"				"HostMatchLabel"
-				"font"					"DefaultLarge"
+				"font"					"MainMenuDesc"
 				"labelText"				"#TF_HostMatch_Desc"
 				"textAlignment"			"south-west"
-				"xpos"					"7"
-				"ypos"					"18"
+				"xpos"					"6"
+				"ypos"					"20"
 				"zpos"					"11"
 				"wide"					"200"
 				"tall"					"30"
 				"autoResize"			"0"
-				"pinCorner"				"0"
+				"pinCorner"				"3"
 				"visible"				"1"
 				"enabled"				"1"
 				"fgcolor_override"		"HudOffWhite"
