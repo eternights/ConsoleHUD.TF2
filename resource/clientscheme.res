@@ -2875,6 +2875,19 @@ Scheme
 			}
 		}
 		
+		// Console HUD
+		"MainMenuDesc"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
 		//
 		//////////////////// ECON FONTS //////////////////////////////
 		//
