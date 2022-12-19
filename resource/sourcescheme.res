@@ -1,34 +1,34 @@
-#base "SourceSchemeBase.res"
+#base "../resource/sourceschemebase.res"
 
-Scheme
+"Resource/SourceScheme.res"
 {
     //////////////////////// COLORS ///////////////////////////
 	// color details
 	// this is a list of all the colors used by the scheme
 	Colors
 	{
-	    "TFDarkBrown"               "65 65 65 255"
-	    "TFDarkBrownTransparent"    "60 56 53 190"
-	    "TFTanBright"               "255 246 229 150"
-	    "TFTanLight"                "200 187 161 150"
-	    "TFTanMedium"               "131 121 104 150"
+	    "TFDarkBrown"               "0 0 0 225"
+	    "TFDarkBrownTransparent"    "0 0 0 128"
+	    "TFTanBright"               "188 112 0 250"
+	    "TFTanLight"                "65 65 65 255"
+	    "TFTanMedium"               "65 65 65 150"
 	    
 	    "TFTanLightBright"          "229 223 211 90"
-	    "TFTanLightDark"            "96 90 78 90"
+	    "TFTanLightDark"            "0 0 0 90"
 	    
 	    "TFOrangeBright"            "178 82 22 255"
 	    
-	    "TFTextBright"              "251 236 203 150"
+	    "TFTextBright"              "200 187 161 150"
 	    "TFTextLight"               "201 188 162 255"
-	    "TFTextMedium"              "131 121 104 255"
+	    "TFTextMedium"              "200 187 161 255"
 	    "TFTextMediumDark"          "104 96 83 255"
 	    "TFTextBlack"               "42 39 37 255"
-	    "TFTextDull"                "131 121 104 255"
+	    "TFTextDull"                "65 65 65 255"
 
 	    "TFMediumBrown"		"69 64 58 255"
 
-	    "QuickListBGDeselected"		"69 64 58 255"
-	    "QuickListBGSelected"               "131 121 104 150"
+	    "QuickListBGDeselected"		"65 65 65 255"
+	    "QuickListBGSelected"               "178 82 22 150"
 	    
 	    "Blank"				"0 0 0 0"
 	    
@@ -36,9 +36,9 @@ Scheme
 		"ControlBG"			"76 88 68 255"		// background color of controls
 		"ControlDarkBG"		"90 106 80 255"		// darker background color; used for background of scrollbars
 		"WindowBG"			"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"90 84 75 255"	// background color of any selected text or menu item
-		"SelectionBG2"		"69 64 57 255"		// selection background in window w/o focus
-		"ListBG"			"46 43 42 255"		// background of server browser, buddy list, etc.
+		"SelectionBG"		"178 82 22 255"	// background color of any selected text or menu item
+		"SelectionBG2"		"178 82 22 120"		// selection background in window w/o focus
+		"ListBG"			"65 65 65 255"		// background of server browser, buddy list, etc.
 	}
 	BaseSettings
 	{
@@ -259,6 +259,53 @@ Scheme
 				"tall"			"14" [!$OSX]
 				"tall"			"12" [$OSX]
 				"antialias"		"1" [!$OSX]
+			}
+		}
+
+		"CloseCaption_Normal"
+		{
+			"1"
+			{
+				"name"		"Tahoma" [!$POSIX]
+				"name"		"Verdana" [$POSIX]
+				"tall"		"16"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"CloseCaption_Italic"
+		{
+			"1"
+			{
+				"name"		"Tahoma" [!$OSX]
+				"name"		"Verdana Italic" [$OSX]
+				"tall"		"16"
+				"weight"	"500"
+				"italic"	"1"
+				"antialias"	"1"
+			}
+		}
+		"CloseCaption_Bold"
+		{
+			"1"
+			{
+				"name"		"Tahoma" [!$POSIX]
+				"name"		"Verdana Bold" [$POSIX]
+				"tall"		"16"
+				"weight"	"900"
+				"antialias"	"1"
+			}
+		}
+		"CloseCaption_BoldItalic"
+		{
+			"1"
+			{
+				"name"		"Tahoma" [!$POSIX]
+				"name"		"Verdana Bold Italic" [$POSIX]
+				"tall"		"16"
+				"weight"	"900"
+				"italic"	"1"
+				"antialias"	"1"
 			}
 		}
 
