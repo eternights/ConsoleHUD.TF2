@@ -43,7 +43,7 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-100"
+		"xpos"	"c-105"
 		"ypos"	"0"
 		"wide"	"200"
 		"tall"	"160"
@@ -298,7 +298,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"265"
+		"ypos"		"305"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -506,7 +506,7 @@
 		"enabled" "1"
 		"xpos"	 "r672"	[$WIN32]
 		"xpos_minmode"	"r633"
-		"ypos"	 "40"	[$WIN32]
+		"ypos"	 "47"	[$WIN32]
 		"ypos_minmode"	"25"
 		"xpos"	 "r672"	[$X360]
 		"ypos"	 "35"	[$X360]
