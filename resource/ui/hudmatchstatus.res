@@ -321,22 +321,22 @@
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"TanLight"
-			"xpos"			"23"
+			"xpos"			"16"
 			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
 			"xpos_lodef"	"114"
-			"ypos"			"14"
+			"ypos"			"8"
 			"ypos_minmode"	"6"
 			"ypos_hidef"	"15"
 			"ypos_lodef"	"18"
 			"zpos"			"3"
-			"wide"			"45"
+			"wide"			"50"
 			"wide_minmode"	"30"
 			"wide_lodef"	"50"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"		"right"
 			"labelText"		"0:00"
 
 			if_match
@@ -350,6 +350,7 @@
 				"font"			"HudFontSmall"
 				"font_minmode"	"HudFontSmall"
 				"font_lodef"	"HudFontSmall"
+				"textAlignment"	"center"
 			}
 		}	
 	}
