@@ -34,6 +34,7 @@ Configurations to set mostly with the Developer Console tool. Optional, recommen
 * `tf_hud_target_id_disable_floating_health 0`
 * `tf_hud_target_id_alpha 249`
 * `tf_use_match_hud 0`
+* `cl_hud_playerclass_use_playermodel 0`
 
 # Screenies
 Screenshots of the heads up display, some may be slightly outdated.
