@@ -29,7 +29,7 @@
 		if_mvm
 		{
 			"xpos"					"c-250"
-			"ypos"					"42"
+			"ypos"					"32"
 			"wide"					"500"
 			"tall"					"480"
 
@@ -832,7 +832,7 @@
 		{
 			"font"			"HudFontSmallishBold"
 			"xpos"			"155"
-			"ypos"			"105"
+			"ypos"			"98"
 			"wide"			"190"
 			"tall"			"20"
 			"zpos"			"3"
@@ -882,7 +882,7 @@
 		{
 			"font"			"HudFontSmallishBold"
 			"xpos"			"156"
-			"ypos"			"106"
+			"ypos"			"99"
 			"wide"			"190"
 			"tall"			"20"
 			"visible"		"1"
