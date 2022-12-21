@@ -5,7 +5,8 @@
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
 		"xpos"				"c-300"
-		"ypos"				"40"
+		"ypos"				"31"
+		"ypos_override"		"40"
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
@@ -169,11 +170,11 @@
 		"ControlName"		"CVictorySplash"
 		"fieldName"			"VictorySplash"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"53"
 		//"zpos"				"102"
 		"wide"				"f0"
 		"tall"				"480"
-		"visible"			"0"
+		"visible"			"1"
 		"enabled"			"1"			
 	}
 	
