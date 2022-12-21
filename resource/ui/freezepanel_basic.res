@@ -411,7 +411,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ScreenshotPanel"
 		"xpos"			"c-83"
-		"ypos"			"50"
+		"ypos"			"70"
 		"zpos"			"2"
 		"wide"			"166"
 		"tall"			"40"
