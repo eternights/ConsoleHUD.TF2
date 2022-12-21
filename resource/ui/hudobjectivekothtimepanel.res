@@ -12,7 +12,7 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
-		"xpos"				"0"
+		"xpos"				"5"
 		"xpos_minmode"		"20"
 		"ypos"				"12f"
 		"ypos_minmode"		"-14"
@@ -53,11 +53,11 @@
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"TanLight"
-			"xpos"			"23"
+			"xpos"			"21"
 			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
 			"xpos_lodef"	"114"
-			"ypos"			"s0.44"
+			"ypos"			"s0.3"
 			"ypos_minmode"	"6"
 			"ypos_hidef"	"15"
 			"ypos_lodef"	"18"
@@ -75,7 +75,7 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"15"
+				"xpos"			"20"
 				"xpos_minmode"	"15"
 				"ypos"			"36"
 				"ypos_minmode"	"12"
@@ -85,7 +85,7 @@
 				"font"			"HudFontSmall"
 				"font_minmode"	"HudFontSmall"
 				"font_lodef"	"HudFontSmall"
-			
+				"textAlignment"	"right"
 			}
 		}	
 	}
@@ -94,7 +94,7 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
-		"xpos"				"90"
+		"xpos"				"95"
 		"xpos_minmode"		"70"
 		"ypos"				"12"
 		"ypos_minmode"		"-14"
@@ -135,11 +135,11 @@
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"TanLight"
-			"xpos"			"23"
+			"xpos"			"21"
 			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
 			"xpos_lodef"	"114"
-			"ypos"			"s0.44"
+			"ypos"			"s0.3"
 			"ypos_minmode"	"6"
 			"ypos_hidef"	"15"
 			"ypos_lodef"	"18"
@@ -157,7 +157,7 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"rs1-15"
+				"xpos"			"rs1-10"
 				"xpos_minmode"	"rs1-15"
 				"ypos"			"36"
 				"ypos_minmode"	"12"
@@ -167,7 +167,7 @@
 				"font"			"HudFontSmall"
 				"font_minmode"	"HudFontSmall"
 				"font_lodef"	"HudFontSmall"
-			
+				"textAlignment"	"left"
 			}
 		}	
 	}
@@ -177,10 +177,10 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
 		"xpos"				"0"
-		"ypos"				"24"
+		"ypos"				"19"
 		"ypos_minmode"		"-4"
 		"zpos"				"1"
-		"wide"				"78"
+		"wide"				"80"
 		"wide_minmode"		"37"
 		"tall"				"33"
 		"tall_minmode"		"21"
