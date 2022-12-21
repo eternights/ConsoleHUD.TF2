@@ -310,10 +310,10 @@ Scheme
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
 		ListPanel.EmptyListInfoTextColor	"Orange"
 
-		Menu.TextColor					"TanLight"
-		Menu.BgColor					"TransparentBlack"
-		Menu.ArmedTextColor				"TanDark"
-		Menu.ArmedBgColor				"TanLight"
+		Menu.TextColor					"HudOffWhite"
+		Menu.BgColor					"HudBlack"
+		Menu.ArmedTextColor				"HudOffWhite"
+		Menu.ArmedBgColor				"Orange"
 		Menu.TextInset					"6"
 
 		Chat.TypingText					"Orange"
@@ -2881,8 +2881,38 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+			
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"11"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"MainMenuTitle"
+		{
+			"1"
+			{
+				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+			
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"13"
+				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
 			}
