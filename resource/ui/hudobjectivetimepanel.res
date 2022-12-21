@@ -4,16 +4,16 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"16"
+		"xpos"			"11"
 		"xpos_minmode"	"35"
 		"xpos_hidef"	"108"
 		"xpos_lodef"	"108"
-		"ypos"			"12"
+		"ypos"			"6"
 		"zpos"			"2"
-		"wide"			"78"
+		"wide"			"81"
 		"wide_minmode"	"38"
 		"wide_lodef"	"90"
-		"tall"			"33"
+		"tall"			"35"
 		"tall_minmode"	"23"
 		"tall_lodef"	"38"
 		"visible"		"1"
@@ -30,10 +30,10 @@
 	{
 		"ControlName"			"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
-		"xpos"				"67"
+		"xpos"				"63"
 		"xpos_hidef"		"159"
 		"xpos_lodef"		"165"
-		"ypos"				"19"
+		"ypos"				"13"
 		"ypos_hidef"		"15"
 		"ypos_lodef"		"16"
 		"zpos"				"4"	
@@ -60,10 +60,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"16"
+		"xpos"			"12"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"37"
+		"ypos"			"31"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -101,13 +101,13 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"16"	[$WIN32]
+		"xpos"			"11"	[$WIN32]
 		"xpos"			"11"	[$X360]
-		"ypos"			"34"
+		"ypos"			"29"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"78"
+		"wide"			"81"
 		"tall"			"20"
 		"tall_minmode"	"0"
 		"visible"		"0"
@@ -124,10 +124,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"16"
+		"xpos"			"12"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"49"
+		"ypos"			"31"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -152,8 +152,8 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"46"
+			"xpos"					"6"
+			"ypos"					"45"
 			"ypos_minmode"			"21"
 			"wide"					"p1"
 			"font"					"HudFontSmallestBold"
@@ -165,13 +165,13 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
-		"xpos"			"16"	[$WIN32]
+		"xpos"			"11"	[$WIN32]
 		"xpos"			"11"	[$X360]
-		"ypos"			"34"
+		"ypos"			"29"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"78"
+		"wide"			"81"
 		"tall"			"20"
 		"tall_minmode"	"0"
 		"visible"		"0"
@@ -188,10 +188,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
-		"xpos"			"16"
+		"xpos"			"12"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"36"
+		"ypos"			"31"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -216,8 +216,8 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
+			"xpos"					"6"
+			"ypos"					"45"
 			"ypos_minmode"			"21"
 			"wide"					"p1"
 			"font"					"HudFontSmallestBold"
@@ -229,13 +229,13 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
-		"xpos"			"16"	[$WIN32]
+		"xpos"			"11"	[$WIN32]
 		"xpos"			"11"	[$X360]
-		"ypos"			"34"
+		"ypos"			"29"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"78"
+		"wide"			"81"
 		"tall"			"20"
 		"tall_minmode"	"0"
 		"visible"		"0"
@@ -252,10 +252,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"16"
+		"xpos"			"12"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"36"
+		"ypos"			"31"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -281,8 +281,8 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
+			"xpos"					"6"
+			"ypos"					"45"
 			"ypos_minmode"			"21"
 			"wide"					"p1"
 			"font"					"HudFontSmallestBold"
@@ -294,13 +294,13 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
-		"xpos"			"16"	[$WIN32]
+		"xpos"			"11"	[$WIN32]
 		"xpos"			"11"	[$X360]
-		"ypos"			"34"
+		"ypos"			"29"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"78"
+		"wide"			"81"
 		"tall"			"20"
 		"tall_minmode"	"0"
 		"visible"		"0"
@@ -317,10 +317,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"16"
+		"xpos"			"12"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"36"
+		"ypos"			"31"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -346,8 +346,8 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
+			"xpos"					"6"
+			"ypos"					"45"
 			"ypos_minmode"			"21"
 			"wide"					"p1"
 			"font"					"HudFontSmallestBold"
@@ -359,13 +359,13 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"16"	[$WIN32]
+		"xpos"			"11"	[$WIN32]
 		"xpos"			"11"	[$X360]
-		"ypos"			"34"
+		"ypos"			"29"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"78"
+		"wide"			"81"
 		"tall"			"20"
 		"tall_minmode"	"0"
 		"visible"		"0"
