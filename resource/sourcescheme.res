@@ -7,28 +7,28 @@
 	// this is a list of all the colors used by the scheme
 	Colors
 	{
-	    "TFDarkBrown"               "0 0 0 225"
-	    "TFDarkBrownTransparent"    "0 0 0 128"
+	    "TFDarkBrown"               "46 43 42 255"
+	    "TFDarkBrownTransparent"    "46 43 42 250"
 	    "TFTanBright"               "188 112 0 250"
 	    "TFTanLight"                "65 65 65 255"
-	    "TFTanMedium"               "65 65 65 150"
+	    "TFTanMedium"               "46 43 42 150"
 	    
 	    "TFTanLightBright"          "229 223 211 90"
-	    "TFTanLightDark"            "0 0 0 90"
+	    "TFTanLightDark"            "0 0 0 255"
 	    
 	    "TFOrangeBright"            "178 82 22 255"
 	    
-	    "TFTextBright"              "200 187 161 150"
+	    "TFTextBright"              "200 187 161 255"
 	    "TFTextLight"               "201 188 162 255"
 	    "TFTextMedium"              "200 187 161 255"
 	    "TFTextMediumDark"          "104 96 83 255"
 	    "TFTextBlack"               "42 39 37 255"
-	    "TFTextDull"                "65 65 65 255"
+	    "TFTextDull"                "0 0 0 255"
 
 	    "TFMediumBrown"		"69 64 58 255"
 
-	    "QuickListBGDeselected"		"65 65 65 255"
-	    "QuickListBGSelected"               "178 82 22 150"
+	    "QuickListBGDeselected"		"46 43 42 255"
+	    "QuickListBGSelected"               "178 82 22 255"
 	    
 	    "Blank"				"0 0 0 0"
 	    

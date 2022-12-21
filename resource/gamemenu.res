@@ -8,20 +8,30 @@
 		"OnlyWhenVREnabled" "1"
 	}
 
-	// CS
-	
-	"WelcomeLabel"
+	"WatchStreamButton"
 	{
-		"label"			"#TF_Welcome"
-		"command"		""
-		"OnlyAtMenu"	"1"
+		"label"			""
+		"command"		"watch_stream"
+		"OnlyAtMenu"	"0"
+		"OnlyInGame"	"0"
 		"subimage"		""
-		"tooltip"		""
+		"tooltip"		"#MMenu_Stream_LiveStream"
 	}
-	
+
+	"QuestLogButton"
+	{
+		"label"			""
+		"command"		"questlog"
+		"OnlyAtMenu"	"0"
+		"OnlyInGame"	"0"
+		"subimage"		""
+		"tooltip"		"#TF_QuestMap_Intro_Title"
+	}
+
+	// CS	
 	"CustomMatchButton"
 	{
-		"label"			"#TF_CustomMatch_Title"
+		"label"			""
 		"command"		"OpenServerBrowser"
 		"OnlyAtMenu"	"1"
 		"subimage"		""
@@ -30,7 +40,7 @@
 	
 	"HostMatchButton"
 	{
-		"label"			"#TF_HostMatch_Title"
+		"label"			""
 		"command"		"OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu"	"1"
 		"subimage"		""
@@ -39,7 +49,7 @@
 	
 	"LoadoutMenuButton"
 	{
-		"label"			"#TF_ImportPreview_LoadoutLabel"
+		"label"			""
 		"command"		"engine open_charinfo"
 		"OnlyAtMenu"	"1"
 		"subimage"		""
@@ -48,7 +58,7 @@
 	
 	"ShopMenuButton"
 	{
-		"label"			"Shop"
+		"label"			""
 		"command"		"engine open_store"
 		"OnlyAtMenu"	"1"
 		"subimage"		""
@@ -57,7 +67,7 @@
 	
 	"DeveloperCommentaryButton"
 	{
-		"label"			"#TF_LoadCommentary"
+		"label"			""
 		"command"		"OpenLoadSingleplayerCommentaryDialog"
 		"OnlyAtMenu"	"1"
 		"subimage"		""
@@ -66,7 +76,7 @@
 	
 	"CS_AchievementsButton"
 	{
-		"label"			"#TF_Achievements_Title"
+		"label"			""
 		"command"		"OpenAchievementsDialog"
 		"OnlyAtMenu"	"1"
 		"subimage"		""
@@ -75,7 +85,7 @@
 	
 	"TF2OptionsButton"
 	{
-		"label"			"#MMenu_AdvOptions"
+		"label"			""
 		"command"		"opentf2options"
 		"OnlyAtMenu"	"1"
 		"subimage"		""
@@ -84,7 +94,7 @@
 	
 	"LegacyOptionsButton"
 	{
-		"label"			"#TF_Options_Title"
+		"label"			""
 		"command"		"OpenOptionsDialog"
 		"OnlyAtMenu"	"1"
 		"subimage"		""
@@ -93,7 +103,7 @@
 	
 	"CS_QuitButton"
 	{
-		"label"			"#TF_Quit_Title"
+		"label"			""
 		"OnlyAtMenu"	"1"
 		"command"		"quit"
 		"subimage"		""
@@ -138,7 +148,7 @@
 	// CS
 	"ChangeClassButton"
 	{
-		"label"			"#TF_ChangeClass"
+		"label"			""
 		"command"		"engine escape;changeclass"
 		"OnlyInGame"	"1"
 		"subimage"		""
@@ -146,7 +156,7 @@
 	}	
 	"ChangeTeamButton"
 	{
-		"label"			"#TF_ChangeTeam"
+		"label"			""
 		"command"		"engine escape;changeteam"
 		"OnlyInGame"	"1"
 		"subimage"		""
@@ -154,7 +164,7 @@
 	}	
 	"MapInformationButton"
 	{
-		"label"			"#TF_MapInfo"
+		"label"			""
 		"command"		"engine escape;showmapinfo"
 		"OnlyInGame"	"1"
 		"subimage"		""
@@ -162,7 +172,7 @@
 	}
 	"InGame_AchievementsButton"
 	{
-		"label"			"#TF_Achievements_Title"
+		"label"			""
 		"command"		"OpenAchievementsDialog"
 		"OnlyInGame"	"1"
 		"subimage"		""
@@ -170,7 +180,7 @@
 	}
 	"InGame_LoadoutMenuButton"
 	{
-		"label"			"#TF_ImportPreview_LoadoutLabel"
+		"label"			""
 		"command"		"engine open_charinfo"
 		"OnlyInGame"	"1"
 		"subimage"		""
@@ -178,7 +188,7 @@
 	}
 	"InGame_LegacyOptionsButton"
 	{
-		"label"			"#TF_Options_Title"
+		"label"			""
 		"command"		"OpenOptionsDialog"
 		"OnlyInGame"	"1"
 		"subimage"		""
@@ -186,7 +196,7 @@
 	}
 	"DisconnectButton"
 	{
-		"label"			"#TF_Disconnect"
+		"label"			""
 		"command"		"disconnect"
 		"OnlyInGame"	"1"
 		"subimage"		""

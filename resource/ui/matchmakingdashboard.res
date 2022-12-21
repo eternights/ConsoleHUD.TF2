@@ -113,6 +113,20 @@
 
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"TanLight"
+				
+			// default style
+			"defaultBgColor_override"	"HudBlack"
+			"defaultFgColor_override"	"HudOffWhite"
+			"border_default"		"HudBlack"
+				
+			// armed style
+			"armedBgColor_override"	"Orange"
+			"armedFgColor_override" 	"HudOffWhite"
+			"border_armed"		"Orange"
+			
+			// depressed style    
+			"depressedBgColor_override"	"Black"
+			"depressedFgColor_override" "HudOffWhite"
 
 			"SubImage"
 			{
@@ -647,7 +661,7 @@
 			"xpos"			"rs1"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"0"
+			"wide"			"25"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -660,7 +674,7 @@
 			"brighttext"	"0"
 			"Command"		"quit"
 			"proportionaltoparent"	"1"
-			"labeltext"		"#TF_Disconnect"
+			"labeltext"		""
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
@@ -672,8 +686,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 150"
-			"defaultBgColor_override"	"192 28 0 50"
+			"armedBgColor_override"		"191 80 63 255"
+			"defaultBgColor_override"	"192 28 0 255"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -706,7 +720,7 @@
 			"xpos"			"rs1-31-131"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"90"
+			"wide"			"25"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -719,7 +733,7 @@
 			"brighttext"	"0"
 			"Command"		"resume_game"
 			"proportionaltoparent"	"1"
-			"labeltext"		"#MMenu_ResumeGame"
+			"labeltext"		""
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
@@ -731,8 +745,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-		//	"armedBgColor_override"		"CreditsGreen"
-		//	"defaultBgColor_override"	"GreenSolid"
+			"armedBgColor_override"		"Orange"
+			"defaultBgColor_override"	"HudBlack"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -764,7 +778,7 @@
 			"xpos"			"rs1-31"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"115"
+			"wide"			"25"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -777,7 +791,7 @@
 			"brighttext"	"0"
 			"Command"		"find_game"
 			"proportionaltoparent"	"1"
-			"labeltext"		"#MMenu_FindAGame"
+			"labeltext"		""
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
