@@ -587,7 +587,7 @@
 			"image_drawcolor"	"200 187 161 255"
 		
 			// default style
-			"defaultBgColor_override"	"HudBlack"
+			"defaultBgColor_override"	"Black"
 			"defaultFgColor_override"	"HudOffWhite"
 			"border_default"		"HudBlack"
 						
@@ -669,7 +669,7 @@
 			"image_drawcolor"	"200 187 161 255"
 		
 			// default style
-			"defaultBgColor_override"	"HudBlack"
+			"defaultBgColor_override"	"Black"
 			"defaultFgColor_override"	"HudOffWhite"
 			"border_default"		"HudBlack"
 						
@@ -755,7 +755,7 @@
 			"image_drawcolor"	"200 187 161 255"
 		
 			// default style
-			"defaultBgColor_override"	"HudBlack"
+			"defaultBgColor_override"	"Black"
 			"defaultFgColor_override"	"HudOffWhite"
 			"border_default"		"HudBlack"
 						
@@ -840,7 +840,7 @@
 			"image_drawcolor"	"200 187 161 255"
 		
 			// default style
-			"defaultBgColor_override"	"HudBlack"
+			"defaultBgColor_override"	"Black"
 			"defaultFgColor_override"	"HudOffWhite"
 			"border_default"		"HudBlack"
 						
@@ -1995,7 +1995,7 @@
 			"LeaveSafeModeButton"
 			{
 				"ControlName"	"CExButton"
-				"fieldName"		"SubButton"
+				"fieldName"		"LeaveSafeModeButton"
 				"xpos"			"p0.02"
 				"ypos"			"rs1-5"
 				"zpos"			"11"
@@ -2149,7 +2149,7 @@
 			"image_drawcolor"	"200 187 161 255"
 		
 			// default style
-			"defaultBgColor_override"	"HudBlack"
+			"defaultBgColor_override"	"Black"
 			"defaultFgColor_override"	"HudOffWhite"
 			"border_default"		"HudBlack"
 						
@@ -2226,7 +2226,7 @@
 			"image_drawcolor"	"200 187 161 255"
 		
 			// default style
-			"defaultBgColor_override"	"HudBlack"
+			"defaultBgColor_override"	"Black"
 			"defaultFgColor_override"	"HudOffWhite"
 			"border_default"		"HudBlack"
 						
@@ -2302,7 +2302,7 @@
 			"image_drawcolor"	"200 187 161 255"
 		
 			// default style
-			"defaultBgColor_override"	"HudBlack"
+			"defaultBgColor_override"	"Black"
 			"defaultFgColor_override"	"HudOffWhite"
 			"border_default"		"HudBlack"
 						
@@ -2379,7 +2379,7 @@
 			"image_drawcolor"	"200 187 161 255"
 		
 			// default style
-			"defaultBgColor_override"	"HudBlack"
+			"defaultBgColor_override"	"Black"
 			"defaultFgColor_override"	"HudOffWhite"
 			"border_default"		"HudBlack"
 						
@@ -2416,7 +2416,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundFooter"
-		"bgcolor_override"	"HudBlack"
+		"bgcolor_override"	"Black"
 		"xpos"			"0"
 		"ypos"			"414"
 		"zpos"			"-50"
@@ -2676,7 +2676,7 @@
 		"image_drawcolor"	"200 187 161 255"
 		
 		// default style
-		"defaultBgColor_override"	"HudBlack"
+		"defaultBgColor_override"	"Black"
 		"defaultFgColor_override"	"HudOffWhite"
 		"border_default"		"HudBlack"
 					
@@ -2831,7 +2831,7 @@
 		"image_drawcolor"	"200 187 161 255"
 		
 		// default style
-		"defaultBgColor_override"	"HudBlack"
+		"defaultBgColor_override"	"Black"
 		"defaultFgColor_override"	"HudOffWhite"
 		"border_default"		"HudBlack"
 					
@@ -2892,7 +2892,7 @@
 		"image_drawcolor"	"200 187 161 255"
 		
 		// default style
-		"defaultBgColor_override"	"HudBlack"
+		"defaultBgColor_override"	"Black"
 		"defaultFgColor_override"	"HudOffWhite"
 		"border_default"		"HudBlack"
 					
@@ -2953,7 +2953,7 @@
 		"image_drawcolor"	"200 187 161 255"
 		
 		// default style
-		"defaultBgColor_override"	"HudBlack"
+		"defaultBgColor_override"	"Black"
 		"defaultFgColor_override"	"HudOffWhite"
 		"border_default"		"HudBlack"
 					
@@ -3014,7 +3014,7 @@
 		"image_drawcolor"	"200 187 161 255"
 		
 		// default style
-		"defaultBgColor_override"	"HudBlack"
+		"defaultBgColor_override"	"Black"
 		"defaultFgColor_override"	"HudOffWhite"
 		"border_default"		"HudBlack"
 					
@@ -3186,7 +3186,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
 				// default style
-				"defaultBgColor_override"	"HudBlack"
+				"defaultBgColor_override"	"Black"
 				"defaultFgColor_override"	"HudOffWhite"
 				"border_default"		"HudBlack"
 					
@@ -3277,7 +3277,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
 				// default style
-				"defaultBgColor_override"	"HudBlack"
+				"defaultBgColor_override"	"Black"
 				"defaultFgColor_override"	"HudOffWhite"
 				"border_default"		"HudBlack"
 					
@@ -3367,7 +3367,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
 				// default style
-				"defaultBgColor_override"	"HudBlack"
+				"defaultBgColor_override"	"Black"
 				"defaultFgColor_override"	"HudOffWhite"
 				"border_default"		"HudBlack"
 					
@@ -3437,7 +3437,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
 				// default style
-				"defaultBgColor_override"	"HudBlack"
+				"defaultBgColor_override"	"Black"
 				"defaultFgColor_override"	"HudOffWhite"
 				"border_default"		"HudBlack"
 					
@@ -3507,7 +3507,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
 				// default style
-				"defaultBgColor_override"	"HudBlack"
+				"defaultBgColor_override"	"Black"
 				"defaultFgColor_override"	"HudOffWhite"
 				"border_default"		"HudBlack"
 					
@@ -3577,7 +3577,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
 				// default style
-				"defaultBgColor_override"	"HudBlack"
+				"defaultBgColor_override"	"Black"
 				"defaultFgColor_override"	"HudOffWhite"
 				"border_default"		"HudBlack"
 					
@@ -3647,7 +3647,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
 				// default style
-				"defaultBgColor_override"	"HudBlack"
+				"defaultBgColor_override"	"Black"
 				"defaultFgColor_override"	"HudOffWhite"
 				"border_default"		"HudBlack"
 					
@@ -3717,7 +3717,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
 				// default style
-				"defaultBgColor_override"	"HudBlack"
+				"defaultBgColor_override"	"Black"
 				"defaultFgColor_override"	"HudOffWhite"
 				"border_default"		"HudBlack"
 					
@@ -3789,7 +3789,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
 				// default style
-				"defaultBgColor_override"	"HudBlack"
+				"defaultBgColor_override"	"Black"
 				"defaultFgColor_override"	"HudOffWhite"
 				"border_default"		"HudBlack"
 					
@@ -3860,7 +3860,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
 				// default style
-				"defaultBgColor_override"	"HudBlack"
+				"defaultBgColor_override"	"Black"
 				"defaultFgColor_override"	"HudOffWhite"
 				"border_default"		"HudBlack"
 					
@@ -3930,7 +3930,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
 				// default style
-				"defaultBgColor_override"	"HudBlack"
+				"defaultBgColor_override"	"Black"
 				"defaultFgColor_override"	"HudOffWhite"
 				"border_default"		"HudBlack"
 					
@@ -3999,7 +3999,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
 				// default style
-				"defaultBgColor_override"	"HudBlack"
+				"defaultBgColor_override"	"Black"
 				"defaultFgColor_override"	"HudOffWhite"
 				"border_default"		"HudBlack"
 					
@@ -4069,7 +4069,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
 				// default style
-				"defaultBgColor_override"	"HudBlack"
+				"defaultBgColor_override"	"Black"
 				"defaultFgColor_override"	"HudOffWhite"
 				"border_default"		"HudBlack"
 					
@@ -4082,7 +4082,7 @@
 				"depressedBgColor_override"	"Black"
 				"depressedFgColor_override" "HudOffWhite"
 			}
-			"In_GameAchievementsTitleLabel"
+			"InGame_AchievementsTitleLabel"
 			{
 				"ControlName"			"CExLabel"
 				"fieldName"				"InGame_AchievementsTitleLabel"
@@ -4138,7 +4138,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
 				// default style
-				"defaultBgColor_override"	"HudBlack"
+				"defaultBgColor_override"	"Black"
 				"defaultFgColor_override"	"HudOffWhite"
 				"border_default"		"HudBlack"
 					
@@ -4207,7 +4207,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
 				// default style
-				"defaultBgColor_override"	"HudBlack"
+				"defaultBgColor_override"	"Black"
 				"defaultFgColor_override"	"HudOffWhite"
 				"border_default"		"HudBlack"
 					
@@ -4277,7 +4277,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
 				// default style
-				"defaultBgColor_override"	"HudBlack"
+				"defaultBgColor_override"	"Black"
 				"defaultFgColor_override"	"HudOffWhite"
 				"border_default"		"HudBlack"
 					
@@ -4366,7 +4366,7 @@
 		"KillIconLocal_v1"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"KillIconBase_v3"
+			"fieldName"		"KillIconLocal_v1"
 			"ypos"			"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -4375,7 +4375,7 @@
 		"KillIconLocal_v2"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"KillIconBase_v3"
+			"fieldName"		"KillIconLocal_v2"
 			"ypos"			"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -4384,7 +4384,7 @@
 		"KillIconLocal_v3"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"KillIconBase_v3"
+			"fieldName"		"KillIconLocal_v3"
 			"ypos"			"0"
 			"visible"		"1"
 			"enabled"		"1"
