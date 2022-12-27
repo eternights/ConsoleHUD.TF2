@@ -1,34 +1,34 @@
-#base "sourceschemebase.res"
+#base "SourceSchemeBase.res"
 
-"Resource/SourceScheme.res"
+Scheme
 {
     //////////////////////// COLORS ///////////////////////////
 	// color details
 	// this is a list of all the colors used by the scheme
 	Colors
 	{
-	    "TFDarkBrown"               "46 43 42 255"
-	    "TFDarkBrownTransparent"    "46 43 42 250"
-	    "TFTanBright"               "188 112 0 250"
-	    "TFTanLight"                "65 65 65 255"
-	    "TFTanMedium"               "46 43 42 150"
+	    "TFDarkBrown"               "60 56 53 255"
+	    "TFDarkBrownTransparent"    "60 56 53 190"
+	    "TFTanBright"               "236 227 203 150"
+	    "TFTanLight"                "201 188 162 150"
+	    "TFTanMedium"               "131 121 104 150"
 	    
 	    "TFTanLightBright"          "229 223 211 90"
-	    "TFTanLightDark"            "0 0 0 255"
+	    "TFTanLightDark"            "96 90 78 90"
 	    
-	    "TFOrangeBright"            "178 82 22 255"
+	    "TFOrangeBright"            "156 82 33 255"
 	    
-	    "TFTextBright"              "200 187 161 255"
+	    "TFTextBright"              "251 236 203 150"
 	    "TFTextLight"               "201 188 162 255"
-	    "TFTextMedium"              "200 187 161 255"
+	    "TFTextMedium"              "131 121 104 255"
 	    "TFTextMediumDark"          "104 96 83 255"
 	    "TFTextBlack"               "42 39 37 255"
-	    "TFTextDull"                "0 0 0 255"
+	    "TFTextDull"                "131 121 104 255"
 
 	    "TFMediumBrown"		"69 64 58 255"
 
-	    "QuickListBGDeselected"		"46 43 42 255"
-	    "QuickListBGSelected"               "178 82 22 255"
+	    "QuickListBGDeselected"		"69 64 58 255"
+	    "QuickListBGSelected"               "131 121 104 150"
 	    
 	    "Blank"				"0 0 0 0"
 	    
@@ -36,99 +36,208 @@
 		"ControlBG"			"76 88 68 255"		// background color of controls
 		"ControlDarkBG"		"90 106 80 255"		// darker background color; used for background of scrollbars
 		"WindowBG"			"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"178 82 22 255"	// background color of any selected text or menu item
-		"SelectionBG2"		"178 82 22 120"		// selection background in window w/o focus
-		"ListBG"			"65 65 65 255"		// background of server browser, buddy list, etc.
+		"SelectionBG"		"90 84 75 255"	// background color of any selected text or menu item
+		"SelectionBG2"		"69 64 57 255"		// selection background in window w/o focus
+		"ListBG"			"39 36 34 255"		// background of server browser, buddy list, etc.
+		
+		// Console HUD
+		"MainBG"					"22 18 17 255"
+		"MainEnabledBG"				"178 82 22 255"
+		"MainDarkBG"				"0 0 0 255"
+		"MainOutofFocusBG"			"0 0 0 250"
+		"MainInsetBG"				"46 43 42 255"
+		"MainInsetOutofFocusBG"		"46 43 42 250"
+		"ButtonBG"					"46 43 42 255"
+		"ButtonArmedBG"				"178 82 22 255"
+		"ButtonDepressedBG"			"178 82 22 120"
+		
+		
+		"CS_TextColor"				"200 187 161 255"
+		"CS_DepressedTextColor"		"46 43 42 255"
+		"CS_HighlightTextColor"		"235 235 235 255"
+		"CS_DisabledTextColor"		"0 0 0 255"
+
+		// base colors
+		"White"				"255 255 255 255"
+		"OffWhite"			"216 216 216 255"
+		"DullWhite"			"142 142 142 255"
+		"Orange"			"255 155 0 255"
+		"TransparentBlack"	"0 0 0 128"
+		"Black"				"0 0 0 255"
 	}
 	BaseSettings
 	{
-		// scheme-specific colors
-		Border.Bright					"TFTanLightDark"	// the lit side of a control
-		Border.Dark						"TFTanLightDark"		// the dark/unlit side of a control
-		Border.Selection				"BorderSelection"			// the additional border color for displaying the default/selected button
+		// vgui_controls color specifications
+		Border.Bright					"200 200 200 196"	// the lit side of a control
+		Border.Dark						"40 40 40 196"		// the dark/unlit side of a control
+		Border.Selection				"0 0 0 196"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TFDarkBrown"
-		Button.BgColor					"TFTanLight"
-		Button.ArmedTextColor			"TFDarkBrown"
-		Button.ArmedBgColor				"TFTanBright"
-		Button.DepressedTextColor		"TFDarkBrown"
-		Button.DepressedBgColor			"TFTanLight"	
-		Button.FocusBorderColor			"TransparentBlack"
+		Button.TextColor				"White"
+		Button.BgColor					"Blank"
+		Button.ArmedTextColor			"White"
+		Button.ArmedBgColor				"Blank"				[$WIN32]
+		Button.ArmedBgColor				"190 115 0 255"		[$X360]
+		Button.DepressedTextColor		"White"
+		Button.DepressedBgColor			"Blank"
+		Button.FocusBorderColor			"Black"
 		
-		CheckButton.TextColor			"TFTextBright"
-		CheckButton.SelectedTextColor		"TFTextBright"
-		CheckButton.BgColor				"ListBG"
-		CheckButton.HighlightFgColor		"TFTextMedium"
-		CheckButton.ArmedBgColor		"Blank"
-		CheckButton.DepressedBgColor		"Blank"
+		CheckButton.TextColor			"OffWhite"
+		CheckButton.SelectedTextColor	"White"
+		CheckButton.BgColor				"TransparentBlack"
 		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check				"TFTanBright"	// color of the check itself
-		CheckButton.DisabledBgColor	    "ListBG"
+		CheckButton.Check				"White"				// color of the check itself
 
-		ToggleButton.SelectedTextColor	"TFTextBright"
-		
-		ComboBoxButton.ArrowColor		"TFTanLight"
-		ComboBoxButton.ArmedArrowColor	"TFTanBright"
+		ComboBoxButton.ArrowColor		"DullWhite"
+		ComboBoxButton.ArmedArrowColor	"White"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
-		
-		RadioButton.TextColor		"TFTextBright"
-		RadioButton.SelectedTextColor	"TFTextBright"
-		RadioButton.ArmedTextColor	"TFTextMedium"
-		
-		Frame.BgColor					"TFDarkBrown"
-		Frame.OutOfFocusBgColor			"TFDarkBrownTransparent"
-		FrameGrip.Color1				"TFTanMedium"
-		FrameGrip.Color2				"TFDarkBrown"
-		FrameTitleButton.FgColor		"TFTanBright"
-		FrameTitleBar.Font			"DefaultLarge"		[$WIN32]
-		FrameTitleBar.TextColor			"TFTanBright"
-		FrameTitleBar.DisabledTextColor	"TFTanLight"
-		
-		Label.TextDullColor				"TFTextDull"
-		Label.TextColor					"TFTextBright"
-		Label.TextBrightColor			"TFTextBright"
-		Label.SelectedTextColor			"TFTextBright"
-		Label.BgColor					"Blank"
-		Label.DisabledFgColor1			"TFTextDull"	
-		Label.DisabledFgColor2			"Blank"	
-		
-		ListPanel.TextColor					"TFTextBright"
-		ListPanel.BgColor					"ListBG"
-		ListPanel.SelectedBgColor			"SelectionBG"
-		ListPanel.SelectedOutOfFocusBgColor	"SelectionBG2"
-		
-		MainMenu.TextColor			"TanLight"			[$WIN32]
-		MainMenu.ArmedTextColor		"117 107 94 255"	[$WIN32]
-		MainMenu.Inset				"32"
-		
-		Menu.TextInset					"6"
-		Menu.FgColor			"TFTextLight"
-		Menu.BgColor			"ListBG"
-		Menu.ArmedFgColor		"TFTextBright"
-		Menu.ArmedBgColor		"TFOrangeBright"
-		Menu.DividerColor		"BorderDark"
-		
-		ScrollBarButton.FgColor				"TFDarkBrown"
-		ScrollBarButton.BgColor				"TFTanLight"
-		ScrollBarButton.ArmedFgColor		"TFDarkBrown"
-		ScrollBarButton.ArmedBgColor		"TFTanBright"
-		ScrollBarButton.DepressedFgColor	"TFDarkBrown"
-		ScrollBarButton.DepressedBgColor	"TFTanLight"
 
-		ScrollBarSlider.BgColor				"TFTanMedium"		// this isn't really used
-		ScrollBarSlider.FgColor				"TFTanLight"		// handle with which the slider is grabbed
+		Frame.TitleTextInsetX			16
+		Frame.ClientInsetX				8
+		Frame.ClientInsetY				6
+		Frame.BgColor					"160 160 160 128"	[$WIN32]
+		Frame.BgColor					"80 80 80 192"		[$X360]
+		Frame.OutOfFocusBgColor			"160 160 160 32"	[$WIN32]
+		Frame.OutOfFocusBgColor			"80 80 80 192"		[$X360]
+		Frame.FocusTransitionEffectTime	"0.3"							// time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime		"0.3"				[$WIN32]	// time it takes for a window to fade in/out on open/close
+		Frame.TransitionEffectTime		"0.2"				[$X360]		// time it takes for a window to fade in/out on open/close
+		Frame.AutoSnapRange				"0"
+		FrameGrip.Color1				"200 200 200 196"
+		FrameGrip.Color2				"0 0 0 196"
+		FrameTitleButton.FgColor		"200 200 200 196"
+		FrameTitleButton.BgColor		"Blank"
+		FrameTitleButton.DisabledFgColor	"255 255 255 192"
+		FrameTitleButton.DisabledBgColor	"Blank"
+		FrameSystemButton.FgColor		"Blank"
+		FrameSystemButton.BgColor		"Blank"
+		FrameSystemButton.Icon			""
+		FrameSystemButton.DisabledIcon	""
+		FrameTitleBar.Font				"UiBold"		[$WIN32]
+		FrameTitleBar.Font				"DefaultLarge"	[$WIN32]
+		FrameTitleBar.TextColor			"White"
+		FrameTitleBar.BgColor			"Blank"
+		FrameTitleBar.DisabledTextColor	"255 255 255 192"
+		FrameTitleBar.DisabledBgColor	"Blank"
+
+		GraphPanel.FgColor				"White"
+		GraphPanel.BgColor				"TransparentBlack"
+
+		Label.TextDullColor				"DullWhite"
+		Label.TextColor					"OffWhite"
+		Label.TextBrightColor			"White"
+		Label.SelectedTextColor			"White"
+		Label.BgColor					"Blank"
+		Label.DisabledFgColor1			"117 117 117 255"
+		Label.DisabledFgColor2			"30 30 30 255"
+
+		ListPanel.TextColor					"OffWhite"
+		ListPanel.TextBgColor				"Blank"
+		ListPanel.BgColor					"TransparentBlack"
+		ListPanel.SelectedTextColor			"Black"
+		ListPanel.SelectedBgColor			"Orange"
+		ListPanel.SelectedOutOfFocusBgColor	"255 155 0 128"
+		ListPanel.EmptyListInfoTextColor	"OffWhite"
+
+		Menu.TextColor					"White"
+		Menu.BgColor					"160 160 160 64"
+		Menu.ArmedTextColor				"Black"
+		Menu.ArmedBgColor				"Orange"
+		Menu.TextInset					"6"
+
+		Panel.FgColor					"DullWhite"
+		Panel.BgColor					"Blank"
+
+		ProgressBar.FgColor				"White"
+		ProgressBar.BgColor				"TransparentBlack"
+
+		PropertySheet.TextColor			"OffWhite"
+		PropertySheet.SelectedTextColor	"White"
+		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
+
+		RadioButton.TextColor			"DullWhite"
+		RadioButton.SelectedTextColor	"White"
+
+		RichText.TextColor				"OffWhite"
+		RichText.BgColor				"TransparentBlack"
+		RichText.SelectedTextColor		"Black"
+		RichText.SelectedBgColor		"Orange"
+
+		ScrollBar.Wide					17
+
+		ScrollBarButton.FgColor				"White"
+		ScrollBarButton.BgColor				"Blank"
+		ScrollBarButton.ArmedFgColor		"White"
+		ScrollBarButton.ArmedBgColor		"Blank"
+		ScrollBarButton.DepressedFgColor	"White"
+		ScrollBarButton.DepressedBgColor	"Blank"
+
+		ScrollBarSlider.FgColor				"Blank"			// nob color
+		ScrollBarSlider.BgColor				"255 255 255 64"	// slider background color
+
+		SectionedListPanel.HeaderTextColor	"White"
+		SectionedListPanel.HeaderBgColor	"Blank"
+		SectionedListPanel.DividerColor		"Black"
+		SectionedListPanel.TextColor		"DullWhite"
+		SectionedListPanel.BrightTextColor	"White"
+		SectionedListPanel.BgColor			"TransparentBlack"
+		SectionedListPanel.SelectedTextColor			"Black"
+		SectionedListPanel.SelectedBgColor				"Orange"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
+
+		Slider.NobColor				"108 108 108 255"
+		Slider.TextColor			"180 180 180 255"
+		Slider.TrackColor			"31 31 31 255"
+		Slider.DisabledTextColor1	"117 117 117 255"
+		Slider.DisabledTextColor2	"30 30 30 255"
+
+		TextEntry.TextColor			"OffWhite"
+		TextEntry.BgColor			"TransparentBlack"
+		TextEntry.CursorColor		"OffWhite"
+		TextEntry.DisabledTextColor	"DullWhite"
+		TextEntry.DisabledBgColor	"Blank"
+		TextEntry.SelectedTextColor	"Black"
+		TextEntry.SelectedBgColor	"Orange"
+		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
+		TextEntry.FocusEdgeColor	"0 0 0 196"
+
+		ToggleButton.SelectedTextColor	"White"
+
+		Tooltip.TextColor			"0 0 0 196"
+		Tooltip.BgColor				"Orange"
+
+		TreeView.BgColor			"TransparentBlack"
+
+		WizardSubPanel.BgColor		"Blank"
+
+		// scheme-specific colors
+		MainMenu.TextColor			"White"				[$WIN32]
+		MainMenu.TextColor			"200 200 200 255"	[$X360]
+		MainMenu.ArmedTextColor		"200 200 200 255"	[$WIN32]
+		MainMenu.ArmedTextColor		"White"				[$X360]
+		MainMenu.DepressedTextColor	"192 186 80 255"
+		MainMenu.MenuItemHeight		"30"				[$WIN32]
+		MainMenu.MenuItemHeight			"22"				[$X360]
+		MainMenu.MenuItemHeight_hidef	"32"				[$X360]
+		MainMenu.Inset				"32"
+		MainMenu.Backdrop			"0 0 0 156"
+
+		Console.TextColor			"OffWhite"
+		Console.DevTextColor		"White"
+
+		NewGame.TextColor			"White"
+		NewGame.FillColor			"0 0 0 255"
+		NewGame.SelectionColor		"Orange"			[$WIN32]
+		NewGame.SelectionColor		"0 0 0 255"			[$X360]
+		NewGame.DisabledColor		"128 128 128 196"
+
+		MessageDialog.MatchmakingBG			"46 43 42 255"	[$X360]
+		MessageDialog.MatchmakingBGBlack			"22 22 22 255"	[$X360]
 		
-		Slider.NobColor				"TFTanLight"		
-		Slider.TextColor			"TFTextBright"
-		Slider.TrackColor			"ListBG"
-		Slider.DisabledTextColor1	"TFTextMediumDark"
-        Slider.DisabledTextColor2	"Blank"
-		
-		TextEntry.TextColor			        "TFTextBright"
-		TextEntry.DisabledTextColor	        "TFTextMedium"
-		TextEntry.SelectedBgColor	        "TFOrangeBright"
+		MatchmakingMenuItemTitleColor			"200 184 151 255"	[$X360]
+		MatchmakingMenuItemDescriptionColor		"200 184 151 255"	[$X360]
 	}
 	
 	Fonts
@@ -259,53 +368,6 @@
 				"tall"			"14" [!$OSX]
 				"tall"			"12" [$OSX]
 				"antialias"		"1" [!$OSX]
-			}
-		}
-
-		"CloseCaption_Normal"
-		{
-			"1"
-			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
-				"tall"		"16"
-				"weight"	"500"
-				"antialias"	"1"
-			}
-		}
-		"CloseCaption_Italic"
-		{
-			"1"
-			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Italic" [$OSX]
-				"tall"		"16"
-				"weight"	"500"
-				"italic"	"1"
-				"antialias"	"1"
-			}
-		}
-		"CloseCaption_Bold"
-		{
-			"1"
-			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
-				"tall"		"16"
-				"weight"	"900"
-				"antialias"	"1"
-			}
-		}
-		"CloseCaption_BoldItalic"
-		{
-			"1"
-			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana Bold Italic" [$POSIX]
-				"tall"		"16"
-				"weight"	"900"
-				"italic"	"1"
-				"antialias"	"1"
 			}
 		}
 
