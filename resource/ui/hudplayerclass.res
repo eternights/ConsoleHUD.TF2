@@ -87,7 +87,7 @@
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
-		"wide"			"104"
+		"wide"			"p0.121"
 		"tall"			"54"
 		"tall_minmode"	"30"
 		"visible"		"1"
@@ -111,7 +111,7 @@
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
-		"wide"			"104"
+		"wide"			"p0.121"
 		"tall"			"54"
 		"tall_minmode"	"30"
 		"visible"		"1"
