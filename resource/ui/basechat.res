@@ -6,10 +6,10 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"42"	[$WIN32]
+		"xpos"			"43"	[$WIN32]
 		"xpos_minmode"	"8"
 		"xpos"			"42"	[$X360]
-		"ypos"			"245"
+		"ypos"			"238"
 		"ypos_minmode"	"245"
 		"ypos_hidef"		"245"
 		"wide"	 		"280"
