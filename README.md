@@ -15,10 +15,10 @@ Second attempt at making Xbox 360's HUD to *Team Fortress 2*.
 |      **Things**      	|   **Type**  	|  **Support** 	|                                            **Notes**                                           	|
 |:--------------------:	|:-----------:	|:------------:	|:----------------------------------------------------------------------------------------------:	|
 | **Operating System** 	| Windows 11  	| Full support 	|                                                                                                	|
-|                      	| Windows <11 	|   Untested   	| Windows 10 SHOULD be fine. I do not have Windows 8, 8.1, 7, etc. operating systems to test on. 	|
-|                      	| Linux       	|   Untested   	| I do not have any Linux OS to test on.                                                         	|
+|                      	| Windows <10 	|   Untested   	| Windows 10 SHOULD be fine. I do not have Windows 8, 8.1, 7, etc. operating systems to test on. 	|
+|                      	| Linux       	| Full support  | I do not have any Linux OS to test on. Other Linux users say it is working perfectly.          	|
 |                      	| Mac         	|   Untested   	| I will never test this HUD on a Mac.                                                           	|
-| **Resolution**       	| 4:3         	|    Partly    	| Close captions would be too large. Very low resolutions may cause some main-menu mispositions. 	|
+| **Resolution**       	| 4:3         	|    Partly    	| Close captions would be too large.                                                             	|
 |                      	| 5:4         	|    Partly    	| Ditto.                                                                                        	|
 |                      	| 16:10       	| Full support 	|                                                                                                	|
 |                      	| 16:9        	| Full support 	|                                                                                                	|
