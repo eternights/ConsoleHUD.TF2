@@ -1,2 +1,7 @@
-// remove dimmer
-wait 5; showconsole; wait; incrementvar mat_antialias -100 100 1; hideconsole; wait 5; incrementvar mat_antialias -100 100 -1
+r_decal_cullsize 1                // cull decals under 1px size
+exec joystick.cfg                // setup custom joystick controller
+exec autoexec.cfg                // run user script file
+stuffcmds                        // stuff command line statements
+startupmenu                        // open initial menu screen
+sv_unlockedchapters 99            // allow backgrounds to display randomly by unlocking all chapters
+wait 5; showconsole; incrementvar mat_aaquality -100 100 1; hideconsole
