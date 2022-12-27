@@ -43,6 +43,10 @@
 //
 //  SetString <panel name> <string varname> <stringvalue> <set time>
 
+event CompetitiveGame_LowerChatWindow{}
+event CompetitiveGame_RestoreChatWindow{}
+event HudTournament_MoveChatWindow{}
+
 event LevelInit
 {
 }
