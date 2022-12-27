@@ -115,7 +115,7 @@
 			"image_armedcolor"	"TanLight"
 				
 			// default style
-			"defaultBgColor_override"	"HudBlack"
+			"defaultBgColor_override"	"Black"
 			"defaultFgColor_override"	"HudOffWhite"
 			"border_default"		"HudBlack"
 				
@@ -746,7 +746,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"armedBgColor_override"		"Orange"
-			"defaultBgColor_override"	"HudBlack"
+			"defaultBgColor_override"	"Black"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
