@@ -67,7 +67,7 @@ Scheme
 		"HUDRedTeamSolid"	"180 92 77 255"
 		"HUDDeathWarning"	"255 0 0 255"
 		"HudWhite"			"255 255 255 255"
-		"HudOffWhite"		"200 187 161 255"
+		"HudOffWhite"		"200 184 151 255"
 		"HudBlack"			"65 65 65 255"
 		"ProgressBarBlue"	"91 122 142 255"
 		
@@ -1481,7 +1481,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"TF2"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -1523,7 +1523,7 @@ Scheme
 				"tall_hidef"	"48"
 				"antialias"		"1" 
 				"custom"		"1" [$OSX]
-				"weight"		"500"
+				"weight"		"800"
 				"weight_lodef"	"800"
 				"weight_hidef"	"1000"
 			}
@@ -1538,7 +1538,7 @@ Scheme
 				"tall_hidef"	"48"
 				"antialias"		"1"
 				"custom"		"1" [$OSX]
-				"weight"		"500"
+				"weight"		"800"
 				"weight_lodef"	"800"
 				"weight_hidef"	"1000"
 			}
@@ -1553,7 +1553,7 @@ Scheme
 				"tall_hidef"	"36"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
-				"weight"	"500"
+				"weight"	"800"
 			}
 		}
 		"ChalkboardText"
@@ -1561,8 +1561,8 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Professor"
-				"tall"			"14" [!$OSX]
-				"tall"			"15" [$OSX]
+				"tall"			"20" [!$OSX]
+				"tall"			"20" [$OSX]
 				"tall_lodef"	"32"
 				"tall_hidef"	"32"
 				"antialias"		"1"
@@ -1875,43 +1875,53 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
-				"tall"		"12"
-				"weight"	"700"
+				"name"		"Verdana"
+				"tall"		"17"	[$WIN32]
+				"tall"		"15"	[$X360]
+				"weight"	"0"
 				"yres"		"480 599"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"13"
-				"weight"	"700"
+				"tall"		"19"	[$WIN32]
+				"tall"		"17"	[$X360]
+				"weight"	"0"
 				"yres"		"600 767"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"700"
+				"tall"		"21"	[$WIN32]
+				"tall"		"18"	[$X360]
+				"weight"	"0"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 			"4"
 			{
 				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"700"
+				"tall"		"23"	[$WIN32]
+				"tall"		"20"	[$X360]
+				"weight"	"0"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"24"
-				"weight"	"700"
+				"tall"		"25"	[$WIN32]
+				"tall"		"25"	[$X360]
+				"weight"	"0"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 		}
 		"ChatMiniFont"
@@ -2915,6 +2925,91 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+		
+		"Killfeed"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"18"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"22"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+		}
+		
+		"InClipFont"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"38"
+				"tall_lodef"	"40"
+				"weight"	"600"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"AmmoInReserveFont"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"17"
+				"weight"	"600"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"DeathNoticeFont"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"17"
+				"weight"	"0"
+				"yres"		"480 599"
+				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 		}
 		
@@ -5752,6 +5847,13 @@ Scheme
 					"offset" "0 0"
 				}
 			}
+		}
+		
+		"MainMenuButtonBG"
+		{
+			"inset"					"0 0 0 0"
+			"backgroundtype"		"2"
+			"color"					"black"
 		}
 	}
 
