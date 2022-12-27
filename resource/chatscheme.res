@@ -41,7 +41,7 @@ Scheme
 		Button.TextColor				"White"
 		Button.BgColor					"Blank"
 		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor				"Blank"				[$WIN32]
+		Button.ArmedBgColor				"190 115 0 255"				[$WIN32]
 		Button.ArmedBgColor				"190 115 0 255"		[$X360]
 		Button.DepressedTextColor		"White"
 		Button.DepressedBgColor			"Blank"
@@ -64,9 +64,9 @@ Scheme
 		Frame.TitleTextInsetX			16
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
-		Frame.BgColor					"160 160 160 128"	[$WIN32]
+		Frame.BgColor					"80 80 80 192"	[$WIN32]
 		Frame.BgColor					"80 80 80 192"		[$X360]
-		Frame.OutOfFocusBgColor			"160 160 160 32"	[$WIN32]
+		Frame.OutOfFocusBgColor			"80 80 80 192"	[$WIN32]
 		Frame.OutOfFocusBgColor			"80 80 80 192"		[$X360]
 		Frame.FocusTransitionEffectTime	"0.3"	// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.3"	// time it takes for a window to fade in/out on open/close
@@ -180,12 +180,12 @@ Scheme
 		WizardSubPanel.BgColor		"Blank"
 
 		// scheme-specific colors
-		MainMenu.TextColor			"White"				[$WIN32]
+		MainMenu.TextColor			"200 200 200 255"				[$WIN32]
 		MainMenu.TextColor			"200 200 200 255"	[$X360]
-		MainMenu.ArmedTextColor		"200 200 200 255"	[$WIN32]
+		MainMenu.ArmedTextColor		"White"	[$WIN32]
 		MainMenu.ArmedTextColor		"White"				[$X360]
 		MainMenu.DepressedTextColor	"192 186 80 255"
-		MainMenu.MenuItemHeight		"16"	[$WIN32]
+		MainMenu.MenuItemHeight		"32"	[$WIN32]
 		MainMenu.MenuItemHeight		"32"	[$X360]
 		MainMenu.Inset				"32"
 		MainMenu.Backdrop			"0 0 0 156"
@@ -195,7 +195,7 @@ Scheme
 
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
-		NewGame.SelectionColor		"Orange"	[$WIN32]
+		NewGame.SelectionColor		"0 0 0 255"	[$WIN32]
 		NewGame.SelectionColor		"0 0 0 255"	[$X360]
 		NewGame.DisabledColor		"128 128 128 196"
 
@@ -228,7 +228,6 @@ Scheme
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
-				"antialias"	"1"
 			}
 			"2"
 			{
@@ -237,7 +236,6 @@ Scheme
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
-				"antialias"	"1"
 			}
 			"3"
 			{
@@ -246,7 +244,6 @@ Scheme
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
-				"antialias"	"1"
 			}
 			"4"
 			{
@@ -255,7 +252,6 @@ Scheme
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
-				"antialias"	"1"
 			}
 			"5"
 			{
@@ -264,7 +260,6 @@ Scheme
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1200 6000"
-				"antialias"	"1"
 			}
 		}
 		
@@ -279,7 +274,6 @@ Scheme
 				"weight"	"0"
 				"yres"		"480 599"
 				"symbol"	"1"
-				"antialias"	"1"
 			}
 			"2"
 			{
@@ -288,7 +282,6 @@ Scheme
 				"weight"	"0"
 				"yres"		"600 767"
 				"symbol"	"1"
-				"antialias"	"1"
 			}
 			"3"
 			{
@@ -297,7 +290,6 @@ Scheme
 				"weight"	"0"
 				"yres"		"768 1023"
 				"symbol"	"1"
-				"antialias"	"1"
 			}
 			"4"
 			{
@@ -306,7 +298,6 @@ Scheme
 				"weight"	"0"
 				"yres"		"1024 1199"
 				"symbol"	"1"
-				"antialias"	"1"
 			}
 			"5"
 			{
@@ -315,7 +306,6 @@ Scheme
 				"weight"	"0"
 				"yres"		"1200 10000"
 				"symbol"	"1"
-				"antialias"	"1"
 			}
 		}
 
@@ -328,7 +318,6 @@ Scheme
 				"weight"	"0"
 				"yres"		"480 599"
 				"symbol"	"1"
-				"antialias"	"1"
 			}
 			"2"
 			{
@@ -337,7 +326,6 @@ Scheme
 				"weight"	"0"
 				"yres"		"600 767"
 				"symbol"	"1"
-				"antialias"	"1"
 			}
 			"3"
 			{
@@ -346,7 +334,6 @@ Scheme
 				"weight"	"0"
 				"yres"		"768 1023"
 				"symbol"	"1"
-				"antialias"	"1"
 			}
 			"4"
 			{
@@ -355,7 +342,6 @@ Scheme
 				"weight"	"0"
 				"yres"		"1024 1199"
 				"symbol"	"1"
-				"antialias"	"1"
 			}
 			"5"
 			{
@@ -364,7 +350,6 @@ Scheme
 				"weight"	"0"
 				"yres"		"1200 10000"
 				"symbol"	"1"
-				"antialias"	"1"
 			}
 		}
 
@@ -373,7 +358,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"15"	[$WIN32]
+				"tall"		"17"	[$WIN32]
 				"tall"		"15"	[$X360]
 				"weight"	"0"
 				"yres"		"480 599"
@@ -383,7 +368,7 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"17"	[$WIN32]
+				"tall"		"19"	[$WIN32]
 				"tall"		"17"	[$X360]
 				"weight"	"0"
 				"yres"		"600 767"
@@ -393,7 +378,7 @@ Scheme
 			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"18"	[$WIN32]
+				"tall"		"21"	[$WIN32]
 				"tall"		"18"	[$X360]
 				"weight"	"0"
 				"yres"		"768 1023"
@@ -403,7 +388,7 @@ Scheme
 			"4"
 			{
 				"name"		"Verdana"
-				"tall"		"20"	[$WIN32]
+				"tall"		"23"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"0"
 				"yres"		"1024 1199"
