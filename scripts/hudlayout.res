@@ -5,7 +5,7 @@
 		"fieldName" "HudPlayerStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"0"
+		"xpos"	"2"
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
@@ -16,7 +16,7 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r132"	[$WIN32]
+		"xpos"	"r133"	[$WIN32]
 		"xpos_minmode"	"r86"	[$WIN32]
 		"ypos"	"r77"	[$WIN32]
 		"ypos_minmode"	"r37"	[$WIN32]
@@ -32,7 +32,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"0"
-		"ypos"	"-22"
+		"ypos"	"-26"
 		"ypos_minmode"	"6"
 		"wide"	"f0"
 		"tall"	"480"
@@ -246,13 +246,14 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"112"	[$WIN32]
-		"ypos"		"r95"	[$WIN32]
+		"xpos"		"153"	[$WIN32]
+		"ypos"		"351"	[$WIN32]
 		"xpos"		"50"	[$X360]
 		"ypos"		"330"	[$X360]
+		"zpos"		"100"
 		"wide"		"500"
 		"tall"		"200"
-		"TextFont"	"Default"	[$X360]
+		"TextFont"	"Default"
 	}
 
 	CMainTargetID
@@ -506,7 +507,7 @@
 		"enabled" "1"
 		"xpos"	 "r672"	[$WIN32]
 		"xpos_minmode"	"r633"
-		"ypos"	 "47"	[$WIN32]
+		"ypos"	 "70"	[$WIN32]
 		"ypos_minmode"	"25"
 		"xpos"	 "r672"	[$X360]
 		"ypos"	 "35"	[$X360]
@@ -516,16 +517,16 @@
 		"MaxDeathNotices" "4"
 		"MaxDeathNotices_minmode"	"3"
 		"IconScale"	  "0.35"
-		"LineHeight"	  "16"
+		"LineHeight"	  "15"
 		"LineHeight_minmode"	"10"	
-		"LineSpacing"	  "4"
+		"LineSpacing"	  "5"
 		"LineSpacing_minmode"	"0"	
 		"CornerRadius"	  "3"
 		"CornerRadius_minmode"	"2"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"DefaultSmall"
-		"TextFont_minmode"	"DefaultSmall"
+		"TextFont"		"ChatFont"
+		"TextFont_minmode"	"ChatFont"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
@@ -932,13 +933,13 @@
 		"fieldName"				"StatPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-133"
+		"xpos"					"cs-0.5"
 		"xpos_lodef"			"c-190"
-		"ypos"				"250"
+		"ypos"				"255"
 		"ypos_lodef"			"250"
-		"wide"					"266"
+		"wide"					"400"
 		"wide_lodef"			"400"
-		"tall"					"120"
+		"tall"					"190"
 		"tall_lodef"			"190"
 	}
 	
@@ -1008,9 +1009,9 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"42"	[$WIN32]
+		"xpos"			"43"	[$WIN32]
 		"xpos"			"42"	[$X360]
-		"ypos"			"275"
+		"ypos"			"238"
 		"wide"	 		"320"
 		"tall"	 		"120"
 		"PaintBackgroundType"	"2"
