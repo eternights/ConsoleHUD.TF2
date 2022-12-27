@@ -5,11 +5,11 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-//		"x_offset"		"40"
+		"x_offset"		"0"
 		"xpos"			"r258"	[$WIN32]
-		"ypos"			"r57"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos_minmode"	"r83"	[$WIN32]
+		"ypos"			"r78"	[$WIN32]
+		"xpos_minmode"	"r8"	[$WIN32]
+		"ypos_minmode"	"r77"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r124"	[$X360]
 		"wide"			"100"
@@ -23,10 +23,10 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"12"
-		"ypos"			"0"
+		"ypos"			"4"
 		"zpos"			"0"
 		"wide"			"100"
-		"tall"			"50"
+		"tall"			"46"
 		"visible"		"1"
 		"visible_minmode"	"0"
 		"enabled"		"1"
@@ -42,8 +42,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"40"
-		"ypos"					"25"
+		"xpos"					"38"
+		"ypos"					"30"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -51,16 +51,16 @@
 		"pinCorner"				"2"
 		"visible"				"1"
 		"visible_minmode"		"1"
-		"ypos_minmode"			"1"
-		"xpos_minmode"			"0"
-		"textAlignment_minmode"			"west"
+		"ypos_minmode"			"2"
+		"xpos_minmode"			"4"
+		"textAlignment_minmode"			"center"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"ImportToolSmallest"
 	}
 
 	"ItemEffectMeter"
@@ -69,12 +69,12 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"47"
-		"ypos"					"23"
+		"ypos"					"26"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
 		"zpos"					"2"
-		"wide"					"30"
-		"wide_minmode"			"50"
+		"wide"					"29"
+		"wide_minmode"			"51"
 		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
