@@ -20,7 +20,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestsStatusContainer"
 		"xpos"			"rs1-10"
-		"ypos"			"120"
+		"ypos"			"150"
 		"ypos_minmode"	"5"
 		"wide"			"110"
 		"tall"			"20"
